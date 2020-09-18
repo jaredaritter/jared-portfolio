@@ -1,0 +1,22 @@
+{
+  "name": "jared-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredaritter/jared-portfolio.git"
+  },
+  "author": "Jared A Ritter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaredaritter/jared-portfolio/issues"
+  },
+  "homepage": "https://github.com/jaredaritter/jared-portfolio#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
