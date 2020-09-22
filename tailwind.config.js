@@ -1,13 +1,14 @@
 module.exports = {
   future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
   },
-  // purge: ['./*.html'],
-  purge: {
-    enabled: true,
-    content: ['./*.html'],
-  },
+  purge: ['./*.html'],
+  // THIS IS A COMPLETELY NON-IDEAL WAY OF DEALING WITH THIS BUT ALLOWS FOR PUBLISHING OF LIGHTWEIGHT SITE UNTIL I CAN FIGURE OUT WHAT POSTPROCESSING IS NECESSARY
+  // purge: {
+  //   enabled: true,
+  //   content: ['./*.html'],
+  // },
   theme: {
     extend: {},
   },
