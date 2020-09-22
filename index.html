@@ -11,29 +11,99 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body>
-    <div class="container mx-auto text-xl">
+    <div class="container text-2xl">
       <nav
-        class="text-2xl sm:flex sm:justify-between sm:items-align bg-blue-100"
+        class="p-2 text-center sm:text-left sm:flex sm:justify-between sm:items-align bg-gray-100"
       >
-        <div class="mr-6">Jared A Ritter</div>
+        <div class="mr-6 text-3xl">Jared A Ritter</div>
         <div>
-          <a class="mr-2 block sm:inline" href="#">Work</a>
-          <a class="mr-2 block sm:inline" href="#">About</a>
-          <a class="mr-2 block sm:inline" href="#">Contact</a>
+          <a class="mr-2 block sm:inline" href="#work">Work</a>
+          <a class="mr-2 block sm:inline" href="#about">About</a>
+          <a class="mr-2 block sm:inline" href="#contact">Contact</a>
         </div>
       </nav>
-      <h1>Hello World</h1>
-      <div>
-        <div class="mb-1">
-          <a href="https://github.com/jaredaritter">GitHub</a>
+      <main>
+        <div id="home" class="my-16 text-center text-4xl">
+          <h2>Web Developer.</h2>
+          <h2>Physical Therapist Assistant.</h2>
+          <h2>Educator.</h2>
         </div>
-        <div class="mb-1">
-          <a href="https://www.linkedin.com/in/jaredaritter">LinkedIn</a>
+        <div id="work" class="my-16 text-center sm:text-left sm:flex">
+          <div class="mx-auto my-6 h-64 w-11/12 bg-green-100 sm:mx-2">
+            <h3>
+              <a href="https://protected-plateau-42181.herokuapp.com/catalog"
+                >Library Catalog</a
+              >
+            </h3>
+            <a
+              class="text-lg"
+              href="https://github.com/jaredaritter/library-catalog"
+              >Source</a
+            >
+          </div>
+          <div class="mx-auto my-6 h-64 w-11/12 bg-green-100 sm:mx-2">
+            <h3>
+              <a href="https://jaredaritter.github.io/Boxman-Adventure-Travel/"
+                >Boxman Adventure Travel</a
+              >
+            </h3>
+            <a
+              class="text-lg"
+              href="https://github.com/jaredaritter/Boxman-Adventure-Travel"
+              >Source</a
+            >
+          </div>
+          <div class="mx-auto my-6 h-64 w-11/12 bg-green-100 sm:mx-2">
+            <h3>
+              <a href="https://jaredaritter.github.io/rock-paper-scissors/"
+                >Rock Paper Scissors</a
+              >
+            </h3>
+            <a
+              class="text-lg"
+              href="https://github.com/jaredaritter/rock-paper-scissors"
+              >Source</a
+            >
+          </div>
+          <div class="mx-auto my-6 h-64 w-11/12 bg-green-100 sm:mx-2">
+            <h3>
+              <a href="https://pacific-crag-85325.herokuapp.com/campgrounds"
+                >Yelp Camp</a
+              >
+            </h3>
+            <a class="text-lg" href="https://github.com/jaredaritter/YelpCamp"
+              >Source</a
+            >
+          </div>
         </div>
-        <div class="mb-1">
-          <a href="https://twitter.com/jaredaritter">@jaredaritter</a>
+        <div id="about" class="my-16 text-lg">
+          <p class="my-2">
+            Jared is an up and coming web developer ready to add value on day
+            one. He wants to get his hands dirty and learn from those around
+            him. He comes from a healthcare and education background and has a
+            passion for knowledge, teamwork, and service.
+          </p>
+          <p class="my-2">
+            He is a problem solver with a strong interest in performance,
+            efficiency, and clean design. He believes that all parts of the user
+            experience are paramount in conversion and wants to help you make
+            that happen. Jared loves making things work, and then making them
+            work better.
+          </p>
         </div>
-      </div>
+        <div id="contact" class="my-16">
+          <h3>Jared's</h3>
+          <ul>
+            <li><a href="https://github.com/jaredaritter">GitHub</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/jaredaritter">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/jaredaritter">@jaredaritter</a>
+            </li>
+          </ul>
+        </div>
+      </main>
     </div>
   </body>
 </html>
