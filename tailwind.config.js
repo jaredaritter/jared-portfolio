@@ -3,8 +3,8 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: ['*.html'],
-  // THIS IS A COMPLETELY NON-IDEAL WAY OF DEALING WITH THIS BUT ALLOWS FOR PUBLISHING OF LIGHTWEIGHT SITE UNTIL I CAN FIGURE OUT WHAT POSTPROCESSING IS NECESSARY
+  purge: ['*.html'], // WILL PURGE WHEN NODE_ENV=PRODUCTION
+  // MANUAL PURGE ON BUILD IF NEEDED FOR LOCAL TESTING
   // purge: {
   //   enabled: true,
   //   content: ['./*.html'],
