@@ -1,3 +1,4 @@
 # Personal todo notes
 
-- fix canonical urls
+- <del>fix canonical urls</del>
+- <del>update link urls for contact</del>
