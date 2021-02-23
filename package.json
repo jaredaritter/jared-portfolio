@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "npx tailwindcss build style.css -o output.css"
+    "build:css": "npx tailwindcss build style.css -o output.css",
+    "build:ejs": "ejs projects.ejs -f projects-data.json -o projects2.html"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/jaredaritter/jared-portfolio#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "tailwindcss": "^1.8.10"
   }
 }
