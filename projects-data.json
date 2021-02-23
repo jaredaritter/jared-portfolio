@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "id": "library-catalog",
+      "title": "Library Catalog",
+      "url": {
+        "deploy": "https://protected-plateau-42181.herokuapp.com/catalog",
+        "source": "https://github.com/jaredaritter/library-catalog",
+        "issue": "https://github.com/jaredaritter/library-catalog/issues",
+        "contribute": "https://github.com/jaredaritter/library-catalog/issues"
+      },
+      "comment": "* Initial load may take a few seconds as the host dyno spins up",
+      "use": "CRUD application allowing search and curation of a library catalog. Home page gives count of database collections. Authors, Books, Genres, and individual Instances of books are searchable, updateable, and deletable.",
+      "details": "Based on the MDN Express tutorial, this project focuses on understanding Express setup, routing, and handling client requests for all CRUD functionality. It uses the MVC structure and renders views with the Handlebars template engine. Mongoose is used to manage a MongoDB Atlas hosted database for persistent storage.",
+      "tools": [
+        {
+          "name": "Express",
+          "url": "https://expressjs.com/"
+        },
+        {
+          "name": "Mongoose",
+          "url": "https://mongoosejs.com/"
+        },
+        {
+          "name": "MongoDB",
+          "url": "https://www.mongodb.com/"
+        },
+        {
+          "name": "Handlebars",
+          "url": "https://handlebarsjs.com/"
+        },
+        {
+          "name": "Bootstrap 4",
+          "url": "https://getbootstrap.com/"
+        }
+      ]
+    }
+  ]
+}

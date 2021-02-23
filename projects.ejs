@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jared A Ritter's projects page. It gives detailed descriptions and links to current and former projects."
+    />
+    <title>Projects - Jared A Ritter</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="canonical" href="https://www.jaredaritter.com/projects.html" />
+    <!-- We're using the KISS method on this site -->
+    <!-- Smooth scrolling focus issues will be addressed in the future. I am aware of the accessibility complications. -->
+  </head>
+  <body>
+    <div class="text-2xl text-gray-900 flex flex-col min-h-screen">
+      <header
+        class="py-2 px-6 text-center sm:text-left sm:flex sm:justify-between sm:items-align bg-gray-900 text-white rounded-b"
+      >
+        <div class="text-3xl">
+          <a href="/">Jared A Ritter</a>
+        </div>
+        <div class="pt-1">
+          <a class="mr-2 block sm:inline" href="/projects.html">Projects</a>
+          <a class="mr-2 block sm:inline" href="/about.html">About</a>
+          <a class="mr-2 block sm:inline" href="/contact.html">Contact</a>
+        </div>
+      </header>
+      <div class="flex flex-1">
+        <nav class="w-1/5 text-base pt-3 pl-4">
+          <ul>
+            <li>
+              <strong>Highlights</strong>
+            </li>
+            <li>
+              <a href="#library-catalog">Library Catalog</a>
+            </li>
+            <li>
+              <a href="#boxman-adventure-travel">Boxman Adventure Travel</a>
+            </li>
+            <li>
+              <a href="#rock-paper-scissors">Rock, Paper, Scissors</a>
+            </li>
+            <li>
+              <a href="#yelp-camp">Yelp Camp</a>
+            </li>
+            <li>
+              <strong>Other Category</strong>
+            </li>
+          </ul>
+        </nav>
+        <main class="w-4/5 flex flex-col pt-3 pl-3">
+          <h2 class="bg-yellow-100">
+            ** This page is a work in progress - Check my github for current
+            projects **
+          </h2>
+          <% projects.forEach(project => { %>
+            <section
+              id=<%= project.id %> 
+              class="my-6 w-11/12 bg-gray-100 rounded-md sm:mx-2 py-1 pl-3"
+            >
+              <h3>
+                <a href=<%= project.url.deploy %> >
+                  <%= project.title %> 
+                </a>
+                &nbsp;-&nbsp;
+                <span>
+                  <a
+                    class="text-lg"
+                    href=<%= project.url.source %> 
+                  >
+                    Source
+                  </a>
+                </span>
+              </h3>
+              <% if (project.comment) { %>
+                <p class="text-sm my-1">
+                  <%= project.comment %>
+                </p>
+              <% } %> 
+              <p class="text-base my-3">
+                <strong>Use:</strong>
+                <%= project.use %>
+              </p>
+              <p class="text-base my-3">
+                <strong>Details:</strong>
+                <%= project.details %>
+              </p>
+              <p class="text-base my-3">
+                <strong>Build Tools:</strong>
+                <% project.tools.forEach(tool => { %>
+                  <a href=<%= tool.url %> ><%= tool.name %></a>,
+                <% }) %>
+              </p>
+              <p class="text-sm text-gray-700 my-2 mr-4 text-right">
+                <a href=<%= project.url.contribute %>
+                  >Contribute</a
+                >
+                /
+                <a href=<%= project.url.issue %> 
+                  >Found Issue</a
+                >
+              </p>
+            </section>
+          <% }) %>
+          <section
+            id="boxman-adventure-travel"
+            class="my-6 w-11/12 bg-gray-100 sm:mx-2 py-1 pl-3"
+          >
+            <h3>
+              <a href="https://jaredaritter.github.io/Boxman-Adventure-Travel/">
+                Boxman Adventure Travel
+              </a>
+              &nbsp;-&nbsp;
+              <span>
+                <a
+                  class="text-lg"
+                  href="https://github.com/jaredaritter/Boxman-Adventure-Travel"
+                >
+                  Source
+                </a>
+              </span>
+            </h3>
+            <p class="text-base my-3">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
+              aliquid placeat libero repellendus nemo odio est, explicabo
+              corporis non itaque dolores, culpa suscipit. Sed repellendus
+              voluptatem necessitatibus asperiores quia, delectus exercitationem
+              in. Molestias, voluptatibus blanditiis, iste reprehenderit
+              accusamus corporis illo sunt in nobis ut saepe! Delectus labore
+              cumque atque omnis?
+            </p>
+          </section>
+          <section
+            id="rock-paper-scissors"
+            class="my-6 w-11/12 bg-gray-100 sm:mx-2 py-1 pl-3"
+          >
+            <h3>
+              <a href="https://jaredaritter.github.io/rock-paper-scissors/">
+                Rock Paper Scissors
+              </a>
+              &nbsp;-&nbsp;
+              <span>
+                <a
+                  class="text-lg"
+                  href="https://github.com/jaredaritter/rock-paper-scissors"
+                >
+                  Source
+                </a>
+              </span>
+            </h3>
+            <p class="text-base my-3">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
+              aliquid placeat libero repellendus nemo odio est, explicabo
+              corporis non itaque dolores, culpa suscipit. Sed repellendus
+              voluptatem necessitatibus asperiores quia, delectus exercitationem
+              in. Molestias, voluptatibus blanditiis, iste reprehenderit
+              accusamus corporis illo sunt in nobis ut saepe! Delectus labore
+              cumque atque omnis?
+            </p>
+          </section>
+          <section
+            id="yelp-camp"
+            class="my-6 w-11/12 bg-gray-100 sm:mx-2 py-1 pl-3"
+          >
+            <h3>
+              <a href="https://pacific-crag-85325.herokuapp.com/">
+                Yelp Camp
+              </a>
+              &nbsp;-&nbsp;
+              <span>
+                <a
+                  class="text-lg"
+                  href="https://github.com/jaredaritter/YelpCamp"
+                >
+                  Source
+                </a>
+              </span>
+            </h3>
+            <p class="text-base my-3">
+              * Initial load may take a few seconds as the host dyno spins up
+            </p>
+            <p class="text-base my-3">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
+              aliquid placeat libero repellendus nemo odio est, explicabo
+              corporis non itaque dolores, culpa suscipit. Sed repellendus
+              voluptatem necessitatibus asperiores quia, delectus exercitationem
+              in. Molestias, voluptatibus blanditiis, iste reprehenderit
+              accusamus corporis illo sunt in nobis ut saepe! Delectus labore
+              cumque atque omnis?
+            </p>
+          </section>
+        </main>
+      </div>
+      <footer>
+        <div id="social" class="my-8">
+          <ul class="flex justify-center">
+            <li class="mr-3">
+              <a href="https://github.com/jaredaritter"
+                ><img
+                  src="images/GitHub-Mark-32px.png"
+                  alt="Small Github Icon"
+                  width="28px"
+                  height="28px"
+                />
+              </a>
+            </li>
+            <li class="mr-2">
+              <a href="https://www.linkedin.com/in/jaredaritter"
+                ><img
+                  src="images/LI-In-Bug-Tiny.png"
+                  alt="Small LinkedIn Icon"
+                  width="32px"
+                  height="32px"
+              /></a>
+            </li>
+            <li class="mr-2">
+              <a href="https://twitter.com/jaredaritter"
+                ><img
+                  src="images/Twitter-Logo-black.svg"
+                  alt="Small Twitter Icon"
+                  width="32px"
+                  height="32px"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-lg text-right px-4">
+          <p>&copy 2020 Jared A Ritter</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
