@@ -34,6 +34,63 @@
           "url": "https://getbootstrap.com/"
         }
       ]
+    },
+    {
+      "id": "boxman-adventure-travel",
+      "title": "Boxman Adventure Travel",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/Boxman-Adventure-Travel/",
+        "source": "https://github.com/jaredaritter/Boxman-Adventure-Travel",
+        "issue": "https://github.com/jaredaritter/Boxman-Adventure-Travel/issues",
+        "contribute": "https://github.com/jaredaritter/Boxman-Adventure-Travel/issues"
+      },
+      "comment": "",
+      "use": "",
+      "details": "",
+      "tools": [
+        {
+          "name": "Express",
+          "url": "https://expressjs.com/"
+        }
+      ]
+    },
+    {
+      "id": "rock-paper-scissors",
+      "title": "Rock, Paper, Scissors",
+      "url": {
+        "deploy": "https://protected-plateau-42181.herokuapp.com/catalog",
+        "source": "https://github.com/jaredaritter/rock-paper-scissors",
+        "issue": "https://github.com/jaredaritter/rock-paper-scissors/issues",
+        "contribute": "https://github.com/jaredaritter/rock-paper-scissors/issues"
+      },
+      "comment": "",
+      "use": "",
+      "details": "",
+      "tools": [
+        {
+          "name": "Express",
+          "url": "https://expressjs.com/"
+        }
+      ]
+    },
+    {
+      "id": "yelp-camp",
+      "title": "Yelp Camp",
+      "url": {
+        "deploy": "https://pacific-crag-85325.herokuapp.com/",
+        "source": "https://github.com/jaredaritter/YelpCamp",
+        "issue": "https://github.com/jaredaritter/YelpCamp/issues",
+        "contribute": "https://github.com/jaredaritter/YelpCamp/issues"
+      },
+      "comment": "* Initial load may take a few seconds as the host dyno spins up",
+      "use": "",
+      "details": "",
+      "tools": [
+        {
+          "name": "Express",
+          "url": "https://expressjs.com/"
+        }
+      ]
     }
   ]
 }
