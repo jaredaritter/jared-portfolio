@@ -51,14 +51,15 @@
           </ul>
         </nav>
         <main class="w-4/5 flex flex-col pt-3 pl-3">
-          <h2 class="bg-yellow-100">
-            ** This page is a work in progress - Check my github for current
-            projects **
+          <h2
+            class="my-6 w-11/12 bg-yellow-100 border border-yellow-200 rounded-md sm:mx-2 py-1 pl-3 text-center"
+          >
+            ** Page still improving. See Github for more projects. **
           </h2>
           <% projects.forEach(project => { %>
             <section
               id=<%= project.id %> 
-              class="my-6 w-11/12 bg-gray-100 rounded-md sm:mx-2 py-1 pl-3"
+              class="my-6 w-11/12 bg-gray-50 rounded-md sm:mx-2 py-1 pl-3 border border-gray-200"
             >
               <h3>
                 <a href=<%= project.url.deploy %> >
