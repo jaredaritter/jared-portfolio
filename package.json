@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "npx tailwindcss build style.css -o output.css",
-    "build:ejs": "ejs projects.ejs -f projects-data.json -o projects2.html"
+    "build:ejs": "ejs projects.ejs -f projects-data.json -o projects.html"
   },
   "repository": {
     "type": "git",
