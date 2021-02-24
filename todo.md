@@ -3,6 +3,11 @@
 - <del>fix canonical urls</del>
 - <del>update link urls for contact</del>
 
+## Before deploy
+
+- fix comma or don't use commas on the tools
+- move new projects styling to ejs page
+
 ## Short term
 
 - Fill in project details
