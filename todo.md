@@ -5,15 +5,12 @@
 
 ## Before deploy
 
-- fix comma or don't use commas on the tools
-- move new projects styling to ejs page
-
 ## Short term
 
-- Fill in project details
 - Add other projects
 - Make projects presentable before adding to portfolio
 - Add spacing to projects nav bar for improved visibility
+- Link overlap and sizing issues on mobile size
 
 ## Long term
 
