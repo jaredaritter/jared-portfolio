@@ -45,12 +45,20 @@
         "contribute": "https://github.com/jaredaritter/Boxman-Adventure-Travel/issues"
       },
       "comment": "",
-      "use": "",
-      "details": "",
+      "use": "Static travel agency page built as a birthday present for my father-in-law. The intention was to act as a travel agency for him and suggest trips that we would facilitate. Light JS at bottom of page for interaction and choices.",
+      "details": "An older project that I am proud of how it turned out, this was a pure implementation and practice build using fundamental tools to solidify understanding. It is not DRY in any way with everything being hard coded. It took far longer to complete than was reasonably necessary, but it was an excellent experience for solidifying understanding of fundamental concepts and in understanding why the modern tools like templates and frameworks are so helpful and necessary. It's often easy to take modern build tools for granted or not understand why they are needed and this shed some light on the 'why'.",
       "tools": [
         {
-          "name": "Express",
-          "url": "https://expressjs.com/"
+          "name": "HTML",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "JS",
+          "url": "javascript:void(0);"
         }
       ]
     },
@@ -58,18 +66,26 @@
       "id": "rock-paper-scissors",
       "title": "Rock, Paper, Scissors",
       "url": {
-        "deploy": "https://protected-plateau-42181.herokuapp.com/catalog",
+        "deploy": "https://jaredaritter.github.io/rock-paper-scissors/",
         "source": "https://github.com/jaredaritter/rock-paper-scissors",
         "issue": "https://github.com/jaredaritter/rock-paper-scissors/issues",
         "contribute": "https://github.com/jaredaritter/rock-paper-scissors/issues"
       },
       "comment": "",
-      "use": "",
-      "details": "",
+      "use": "Click image of desired choice to play. The computer will also make a choice once you begin. The game ends at 5 points. Ties award 0  points. A new game begins on page refresh or with clicking the reset button.",
+      "details": "Javascript learning project. Focused on buiding game logic and using DOM manipulation to display changes and results. Early use of transitions in CSS to smooth out page interactions.",
       "tools": [
         {
-          "name": "Express",
-          "url": "https://expressjs.com/"
+          "name": "HTML",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "JS",
+          "url": "javascript:void(0);"
         }
       ]
     },
@@ -83,12 +99,32 @@
         "contribute": "https://github.com/jaredaritter/YelpCamp/issues"
       },
       "comment": "* Initial load may take a few seconds as the host dyno spins up",
-      "use": "",
-      "details": "",
+      "use": "Campground 'Yelp' page for building, reviewing, and commenting on campgrounds. All pages and comments are viewable without logging in. To create, edit, or delete a campground or add a comment an account must be made and the user logged in. No personal data is required or kept with signup and passwords are stored appropriately. CRUD functionality for the campground is limited to the author while all users can comment.",
+      "details": "The first large scale project completed in my web development learning. It is based on the Colt Steele Web Developer Bootcamp final project. It was the first time I had handled all of the backend and deployment pieces together and was wonderfully challenging. Using Express, Passport, and EJS for views and logic and hooking up to MongoDB Atlas and configuring Heroku for deployment was like magic. At the time I was able to get the 'what' but not always the 'why'. While the site lacks some polish it was an immensely useful build-through for concepts and exposure.",
       "tools": [
         {
           "name": "Express",
           "url": "https://expressjs.com/"
+        },
+        {
+          "name": "Passport",
+          "url": "http://www.passportjs.org/"
+        },
+        {
+          "name": "Mongoose",
+          "url": "https://mongoosejs.com/"
+        },
+        {
+          "name": "MongoDB",
+          "url": "https://www.mongodb.com/"
+        },
+        {
+          "name": "EJS",
+          "url": "https://ejs.co/"
+        },
+        {
+          "name": "Bootstrap 3",
+          "url": "https://getbootstrap.com/"
         }
       ]
     }
