@@ -58,18 +58,18 @@
           </h2>
           <% projects.forEach(project => { %>
             <section
-              id=<%= project.id %> 
+              id="<%= project.id %>" 
               class="my-6 w-11/12 bg-gray-50 rounded-md sm:mx-2 pt-1.5 pl-3 border border-gray-200"
             >
               <h3>
-                <a href=<%= project.url.deploy %> >
+                <a href="<%= project.url.deploy %>" >
                   <%= project.title %> 
                 </a>
                 &nbsp;-&nbsp;
                 <span>
                   <a
                     class="text-lg"
-                    href=<%= project.url.source %> 
+                    href="<%= project.url.source %>" 
                   >
                     Source
                   </a>
@@ -91,15 +91,15 @@
               <p class="text-base mt-3 mb-0">
                 <strong>Build Tools:</strong>
                 <% project.tools.forEach(tool => { %>
-                  <a href=<%= tool.url %> class="bg-gray-100 border border-gray-200 rounded-md mx-0.5 px-1" ><%= tool.name %></a>
+                  <a href="<%= tool.url %>" class="bg-gray-100 border border-gray-200 rounded-md mx-0.5 px-1" ><%= tool.name %></a>
                 <% }) %>
               </p>
               <p class="text-sm text-gray-700 mt-1 mb-2 mr-4 text-right">
-                <a href=<%= project.url.contribute %>
+                <a href="<%= project.url.contribute %>"
                   >Contribute</a
                 >
                 /
-                <a href=<%= project.url.issue %> 
+                <a href="<%= project.url.issue %>" 
                   >Issue</a
                 >
               </p>
