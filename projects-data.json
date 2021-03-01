@@ -150,6 +150,41 @@
           "url": "javascript:void(0);"
         }
       ]
+    },
+    {
+      "id": "fcc-projects",
+      "title": "FCC Projects",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/fcc-follow-up-projects/",
+        "source": "https://github.com/jaredaritter/fcc-follow-up-projects",
+        "issue": "https://github.com/jaredaritter/fcc-follow-up-projects/issues",
+        "contribute": "https://github.com/jaredaritter/fcc-follow-up-projects/issues"
+      },
+      "comment": "",
+      "use": "Individual live links redirect to the projects.",
+      "details": "A collection of Free Code Camp projects that were rebuilt to solidify understanding. Attempted to use the FCC material only to guide projects' directions but perform the builds from memory and use online resources/documentation when necessary. Excellent experience reworking a walk-through from memory.",
+      "tools": [
+        {
+          "name": "HTML",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "JS",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "DOM Manipulation",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "Forms",
+          "url": "javascript:void(0);"
+        }
+      ]
     }
   ],
   "template": {
