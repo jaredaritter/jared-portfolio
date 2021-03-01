@@ -127,6 +127,48 @@
           "url": "https://getbootstrap.com/"
         }
       ]
+    },
+    {
+      "id": "css-animation",
+      "title": "CSS Animation",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/cssPlay/",
+        "source": "https://github.com/jaredaritter/cssPlay",
+        "issue": "https://github.com/jaredaritter/cssPlay/issues",
+        "contribute": "https://github.com/jaredaritter/cssPlay/issues"
+      },
+      "comment": "",
+      "use": "No interaction. Purely a design and styling project.",
+      "details": "Practical application of CSS positioning and animation. Project is a moving set of eyes that look back and forth utilizing keyframes. It was built as a personal project to solidify understanding of animation and general CSS after completing a CSS section.",
+      "tools": [
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "HTML",
+          "url": "javascript:void(0);"
+        }
+      ]
     }
-  ]
+  ],
+  "template": {
+    "id": "",
+    "title": "",
+    "url": {
+      "deploy": "",
+      "source": "",
+      "issue": "",
+      "contribute": ""
+    },
+    "comment": "",
+    "use": "",
+    "details": "",
+    "tools": [
+      {
+        "name": "HTML",
+        "url": "javascript:void(0);"
+      }
+    ]
+  }
 }
