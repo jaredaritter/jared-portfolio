@@ -185,6 +185,52 @@
           "url": "javascript:void(0);"
         }
       ]
+    },
+    {
+      "id": "accessibility",
+      "title": "Accessibility",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/accessibilityPlay/",
+        "source": "https://github.com/jaredaritter/accessibilityPlay",
+        "issue": "https://github.com/jaredaritter/accessibilityPlay/issues",
+        "contribute": "https://github.com/jaredaritter/accessibilityPlay/issues"
+      },
+      "comment": "",
+      "use": "Page designed with accessibility in mind with semantic elements, appropriate attributes, and focus ability on the form at the bottom of the page.",
+      "details": "Personal project putting accessibility learning into practice.",
+      "tools": [
+        {
+          "name": "HTML",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        }
+      ]
+    },
+    {
+      "id": "flexbox",
+      "title": "Flexbox",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/flexBox/",
+        "source": "https://github.com/jaredaritter/flexBox",
+        "issue": "https://github.com/jaredaritter/flexBox/issues",
+        "contribute": "https://github.com/jaredaritter/flexBox/issues"
+      },
+      "comment": "",
+      "use": "No interaction",
+      "details": "Personal practice utilizing flexbox. Build visualization of flex attributes for improved understanding.",
+      "tools": [
+        {
+          "name": "HTML",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        }
+      ]
     }
   ],
   "template": {
