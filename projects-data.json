@@ -152,6 +152,52 @@
       ]
     },
     {
+      "id": "google-homepage-copy",
+      "title": "Google Homepage Copy",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/google-homepage/",
+        "source": "https://github.com/jaredaritter/google-homepage",
+        "issue": "https://github.com/jaredaritter/google-homepage/issues",
+        "contribute": "https://github.com/jaredaritter/google-homepage/issues"
+      },
+      "comment": "",
+      "use": "No interaction",
+      "details": "HTML and CSS project to visually recreate google homepage.",
+      "tools": [
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "HTML",
+          "url": "javascript:void(0);"
+        }
+      ]
+    },
+    {
+      "id": "flexbox",
+      "title": "Flexbox",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/flexBox/",
+        "source": "https://github.com/jaredaritter/flexBox",
+        "issue": "https://github.com/jaredaritter/flexBox/issues",
+        "contribute": "https://github.com/jaredaritter/flexBox/issues"
+      },
+      "comment": "",
+      "use": "No interaction",
+      "details": "Personal practice utilizing flexbox. Build visualization of flex attributes for improved understanding.",
+      "tools": [
+        {
+          "name": "HTML",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        }
+      ]
+    },
+    {
       "id": "fcc-projects",
       "title": "FCC Projects",
       "url": {
@@ -210,17 +256,17 @@
       ]
     },
     {
-      "id": "flexbox",
-      "title": "Flexbox",
+      "id": "basic-form-validation",
+      "title": "Basic Form Validation",
       "url": {
-        "deploy": "https://jaredaritter.github.io/flexBox/",
-        "source": "https://github.com/jaredaritter/flexBox",
-        "issue": "https://github.com/jaredaritter/flexBox/issues",
-        "contribute": "https://github.com/jaredaritter/flexBox/issues"
+        "deploy": "https://jaredaritter.github.io/form-validation/",
+        "source": "https://github.com/jaredaritter/form-validation",
+        "issue": "https://github.com/jaredaritter/form-validation/issues",
+        "contribute": "https://github.com/jaredaritter/form-validation/issues"
       },
       "comment": "",
-      "use": "No interaction",
-      "details": "Personal practice utilizing flexbox. Build visualization of flex attributes for improved understanding.",
+      "use": "Basic form for inputting name, email, telephone, and message. The fields have a red background when invalid and turn green when input data is valid. Telephone has regex validation requiring area code, dashes, and no parenthesis",
+      "details": "Browser based form validation utilizing required attributes and constraints. Visually obvious passing of constraints using CSS.",
       "tools": [
         {
           "name": "HTML",
