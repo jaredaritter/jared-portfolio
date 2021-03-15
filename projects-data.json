@@ -129,6 +129,56 @@
       ]
     },
     {
+      "id": "calculator",
+      "title": "Calculator",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/calculator/",
+        "source": "https://github.com/jaredaritter/calculator",
+        "issue": "https://github.com/jaredaritter/calculator/issues",
+        "contribute": "https://github.com/jaredaritter/calculator/issues"
+      },
+      "comment": "",
+      "use": "Simple calculator app capable of basic arithmetic. Numbers and buttons can be clicked or typed. Can handle numbers up to 23 digits but will not show exponents.",
+      "details": "Calculator implemented with vanilla JS. Intentionally built as a more robust implementation to handle many common issues around negatives, rounding, and order of operations as well as implemented keyboard inputs",
+      "tools": [
+        {
+          "name": "JS",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "HTML",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        }
+      ]
+    },
+    {
+      "id": "tic-tac-toe",
+      "title": "Tic-Tac-Toe",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/tic-tac-toe/",
+        "source": "https://github.com/jaredaritter/tic-tac-toe",
+        "issue": "https://github.com/jaredaritter/tic-tac-toe/issues",
+        "contribute": "https://github.com/jaredaritter/tic-tac-toe/issues"
+      },
+      "comment": "",
+      "use": "X's start game and alternate with O's. Inputs will stop once on player has won. Refresh page to reset game.",
+      "details": "Tic-tac-toe implemented with vanilla JS. Minimal styling and in need of quality of life improvements like reset button, turn indicator, win announcement, and styling.",
+      "tools": [
+        {
+          "name": "JS",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        }
+      ]
+    },
+    {
       "id": "css-animation",
       "title": "CSS Animation",
       "url": {
