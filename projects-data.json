@@ -1,6 +1,29 @@
 {
   "projects": [
     {
+      "id": "tiny-list",
+      "title": "Tiny List",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/top-starter-project-react/",
+        "source": "https://github.com/jaredaritter/top-starter-project-react",
+        "issue": "https://github.com/jaredaritter/top-starter-project-react/issues",
+        "contribute": "https://github.com/jaredaritter/top-starter-project-react/issues"
+      },
+      "comment": "",
+      "use": "Small and simple list app. Enter item in form and submit. '+' button next to item allows editing. '-' button removes item from list.",
+      "details": "Todo app built using create-react-app. Implemented basic functionality with a minimalist style. Main goal to familiarize self with React",
+      "tools": [
+        {
+          "name": "React",
+          "url": "https://reactjs.org/"
+        },
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        }
+      ]
+    },
+    {
       "id": "library-catalog",
       "title": "Library Catalog",
       "url": {
@@ -156,6 +179,33 @@
       ]
     },
     {
+      "id": "etch-a-sketch",
+      "title": "Etch-a-Sketch",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/etch-a-sketch/",
+        "source": "https://github.com/jaredaritter/etch-a-sketch",
+        "issue": "https://github.com/jaredaritter/etch-a-sketch/issues",
+        "contribute": "https://github.com/jaredaritter/etch-a-sketch/issues"
+      },
+      "comment": "",
+      "use": "Select 'New Grid' and type in the desired size. Mousing over a grid tile will change it to the currently selected color. 'Default' is a teal color with 'Silver' and 'Random' being self-explanatory. 'Lighten' and 'Darken' increase or decrease the opacity respectively by 10% on each mouseover. Note: This project is significantly more fluid and responsive with browser hardware acceleration turned on.",
+      "details": "Resizable digital Etch-a-Sketch with color options. Constructed with JS and implemented through direct DOM manipulation. Designed to practice using JS to manipulate the DOM and using functions to control flow along with basic state management.",
+      "tools": [
+        {
+          "name": "JS",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "CSS",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "HTML",
+          "url": "javascript:void(0);"
+        }
+      ]
+    },
+    {
       "id": "tic-tac-toe",
       "title": "Tic-Tac-Toe",
       "url": {
@@ -174,6 +224,10 @@
         },
         {
           "name": "CSS",
+          "url": "javascript:void(0);"
+        },
+        {
+          "name": "HTML",
           "url": "javascript:void(0);"
         }
       ]
