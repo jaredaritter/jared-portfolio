@@ -19,7 +19,7 @@
         },
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         }
       ]
     },
@@ -73,15 +73,15 @@
       "tools": [
         {
           "name": "HTML",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         },
         {
           "name": "JS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         }
       ]
     },
@@ -100,15 +100,15 @@
       "tools": [
         {
           "name": "HTML",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         },
         {
           "name": "JS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         }
       ]
     },
@@ -166,15 +166,15 @@
       "tools": [
         {
           "name": "JS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
         {
           "name": "HTML",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         }
       ]
     },
@@ -193,15 +193,15 @@
       "tools": [
         {
           "name": "JS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         },
         {
           "name": "HTML",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         }
       ]
     },
@@ -220,15 +220,15 @@
       "tools": [
         {
           "name": "JS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         },
         {
           "name": "HTML",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         }
       ]
     },
@@ -247,11 +247,11 @@
       "tools": [
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         },
         {
           "name": "HTML",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         }
       ]
     },
@@ -270,11 +270,11 @@
       "tools": [
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         },
         {
           "name": "HTML",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         }
       ]
     },
@@ -293,11 +293,11 @@
       "tools": [
         {
           "name": "HTML",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         }
       ]
     },
@@ -316,23 +316,23 @@
       "tools": [
         {
           "name": "HTML",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         },
         {
           "name": "JS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
         {
           "name": "DOM Manipulation",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents"
         },
         {
           "name": "Forms",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Forms"
         }
       ]
     },
@@ -351,11 +351,11 @@
       "tools": [
         {
           "name": "HTML",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         }
       ]
     },
@@ -374,11 +374,11 @@
       "tools": [
         {
           "name": "HTML",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
         {
           "name": "CSS",
-          "url": "javascript:void(0);"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         }
       ]
     }
@@ -398,7 +398,7 @@
     "tools": [
       {
         "name": "HTML",
-        "url": "javascript:void(0);"
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
       }
     ]
   }
