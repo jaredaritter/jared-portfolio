@@ -1,16 +1,20 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Jared A Ritter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Read{' '}
+          <Link href="/posts/first-post">
+            <a>this page!</a>
+          </Link>
         </h1>
 
         <p className="description">
@@ -48,14 +52,25 @@ export default function Home() {
         </div>
       </main>
 
+      <main>
+        {/* Future image position */}
+        <div id="highlights">
+          <h2>Web Developer.</h2>
+          <h2>Physical Therapist Assistant.</h2>
+          <h2>Educator.</h2>
+        </div>
+        {/* <div id="intro">
+          <p class="my-4">Welcome, please take a look around.</p>
+        </div> */}
+      </main>
+
       <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
       </footer>
 
@@ -205,5 +220,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
