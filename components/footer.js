@@ -38,7 +38,7 @@ export default function Footer() {
         </ul>
       </div>
       <div>
-        <p>&copy 2020 Jared A Ritter</p>
+        <p>&copy; 2020 Jared A Ritter</p>
       </div>
     </footer>
   );
