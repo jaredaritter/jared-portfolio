@@ -9,13 +9,17 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>I'm Jared</p>
-        <p>
-          I'm building a new site with{' '}
-          <a href="https://nextjs.org/learn">Next.js</a>
-        </p>
-      </section>
+      <main>
+        {/* Future image position */}
+        <div id="highlights">
+          <h2>Web Developer.</h2>
+          <h2>Physical Therapist Assistant.</h2>
+          <h2>Educator.</h2>
+        </div>
+        {/* <div id="intro">
+          <p>Welcome, please take a look around.</p>
+        </div> */}
+      </main>
     </Layout>
   );
 }
