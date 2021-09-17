@@ -1,36 +1,34 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-import { getSortedPostsData } from '../lib/posts';
+import { getProjectData } from '../lib/projects';
+import Sidebar from '../components/sidebar';
+import ProjectList from '../components/project-list';
 
-export default function Projects({ allPostsData }) {
+export default function Projects({ allProjectData }) {
+  const { projects } = allProjectData;
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      {/* <section className={utilStyles.headingMd}>
-        <p>I'm Jared</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
-      </section> */}
-      <section>
-        <h2>Future Project Information</h2>
+      <Sidebar projects={projects} />
+      <main>
+        <h2>Projects</h2>
         <div id="intro">
-          <p>Coming soon!</p>
+          <p>Under Contruction</p>
         </div>
-      </section>
+        <ProjectList projects={projects} />
+      </main>
     </Layout>
   );
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
+  const allProjectData = getProjectData();
   return {
     props: {
-      allPostsData,
+      allProjectData,
     },
   };
 }
