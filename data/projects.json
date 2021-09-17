@@ -1,0 +1,405 @@
+{
+  "projects": [
+    {
+      "id": "tiny-list",
+      "title": "Tiny List",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/top-starter-project-react/",
+        "source": "https://github.com/jaredaritter/top-starter-project-react",
+        "issue": "https://github.com/jaredaritter/top-starter-project-react/issues",
+        "contribute": "https://github.com/jaredaritter/top-starter-project-react/issues"
+      },
+      "comment": "",
+      "use": "Small and simple list app. Enter item in form and submit. '+' button next to item allows editing. '-' button removes item from list.",
+      "details": "Todo app built using create-react-app. Implemented basic functionality with a minimalist style. Main goal to familiarize self with React",
+      "tools": [
+        {
+          "name": "React",
+          "url": "https://reactjs.org/"
+        },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        }
+      ]
+    },
+    {
+      "id": "library-catalog",
+      "title": "Library Catalog",
+      "url": {
+        "deploy": "https://protected-plateau-42181.herokuapp.com/catalog",
+        "source": "https://github.com/jaredaritter/library-catalog",
+        "issue": "https://github.com/jaredaritter/library-catalog/issues",
+        "contribute": "https://github.com/jaredaritter/library-catalog/issues"
+      },
+      "comment": "* Initial load may take a few seconds as the host dyno spins up",
+      "use": "CRUD application allowing search and curation of a library catalog. Home page gives count of database collections. Authors, Books, Genres, and individual Instances of books are searchable, updateable, and deletable.",
+      "details": "Based on the MDN Express tutorial, this project focuses on understanding Express setup, routing, and handling client requests for all CRUD functionality. It uses the MVC structure and renders views with the Handlebars template engine. Mongoose is used to manage a MongoDB Atlas hosted database for persistent storage.",
+      "tools": [
+        {
+          "name": "Express",
+          "url": "https://expressjs.com/"
+        },
+        {
+          "name": "Mongoose",
+          "url": "https://mongoosejs.com/"
+        },
+        {
+          "name": "MongoDB",
+          "url": "https://www.mongodb.com/"
+        },
+        {
+          "name": "Handlebars",
+          "url": "https://handlebarsjs.com/"
+        },
+        {
+          "name": "Bootstrap 4",
+          "url": "https://getbootstrap.com/"
+        }
+      ]
+    },
+    {
+      "id": "boxman-adventure-travel",
+      "title": "Boxman Adventure Travel",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/Boxman-Adventure-Travel/",
+        "source": "https://github.com/jaredaritter/Boxman-Adventure-Travel",
+        "issue": "https://github.com/jaredaritter/Boxman-Adventure-Travel/issues",
+        "contribute": "https://github.com/jaredaritter/Boxman-Adventure-Travel/issues"
+      },
+      "comment": "",
+      "use": "Static travel agency page built as a birthday present for my father-in-law. The intention was to act as a travel agency for him and suggest trips that we would facilitate. Light JS at bottom of page for interaction and choices.",
+      "details": "An older project that I am proud of how it turned out, this was a pure implementation and practice build using fundamental tools to solidify understanding. It is not DRY in any way with everything being hard coded. It took far longer to complete than was reasonably necessary, but it was an excellent experience for solidifying understanding of fundamental concepts and in understanding why the modern tools like templates and frameworks are so helpful and necessary. It's often easy to take modern build tools for granted or not understand why they are needed and this shed some light on the 'why'.",
+      "tools": [
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "name": "JS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        }
+      ]
+    },
+    {
+      "id": "rock-paper-scissors",
+      "title": "Rock, Paper, Scissors",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/rock-paper-scissors/",
+        "source": "https://github.com/jaredaritter/rock-paper-scissors",
+        "issue": "https://github.com/jaredaritter/rock-paper-scissors/issues",
+        "contribute": "https://github.com/jaredaritter/rock-paper-scissors/issues"
+      },
+      "comment": "",
+      "use": "Click image of desired choice to play. The computer will also make a choice once you begin. The game ends at 5 points. Ties award 0  points. A new game begins on page refresh or with clicking the reset button.",
+      "details": "Javascript learning project. Focused on buiding game logic and using DOM manipulation to display changes and results. Early use of transitions in CSS to smooth out page interactions.",
+      "tools": [
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "name": "JS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        }
+      ]
+    },
+    {
+      "id": "yelp-camp",
+      "title": "Yelp Camp",
+      "url": {
+        "deploy": "https://pacific-crag-85325.herokuapp.com/",
+        "source": "https://github.com/jaredaritter/YelpCamp",
+        "issue": "https://github.com/jaredaritter/YelpCamp/issues",
+        "contribute": "https://github.com/jaredaritter/YelpCamp/issues"
+      },
+      "comment": "* Initial load may take a few seconds as the host dyno spins up",
+      "use": "Campground 'Yelp' page for building, reviewing, and commenting on campgrounds. All pages and comments are viewable without logging in. To create, edit, or delete a campground or add a comment an account must be made and the user logged in. No personal data is required or kept with signup and passwords are stored appropriately. CRUD functionality for the campground is limited to the author while all users can comment.",
+      "details": "The first large scale project completed in my web development learning. It is based on the Colt Steele Web Developer Bootcamp final project. It was the first time I had handled all of the backend and deployment pieces together and was wonderfully challenging. Using Express, Passport, and EJS for views and logic and hooking up to MongoDB Atlas and configuring Heroku for deployment was like magic. At the time I was able to get the 'what' but not always the 'why'. While the site lacks some polish it works well and was an immensely useful build-through for concepts and exposure.",
+      "tools": [
+        {
+          "name": "Express",
+          "url": "https://expressjs.com/"
+        },
+        {
+          "name": "Passport",
+          "url": "http://www.passportjs.org/"
+        },
+        {
+          "name": "Mongoose",
+          "url": "https://mongoosejs.com/"
+        },
+        {
+          "name": "MongoDB",
+          "url": "https://www.mongodb.com/"
+        },
+        {
+          "name": "EJS",
+          "url": "https://ejs.co/"
+        },
+        {
+          "name": "Bootstrap 3",
+          "url": "https://getbootstrap.com/"
+        }
+      ]
+    },
+    {
+      "id": "calculator",
+      "title": "Calculator",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/calculator/",
+        "source": "https://github.com/jaredaritter/calculator",
+        "issue": "https://github.com/jaredaritter/calculator/issues",
+        "contribute": "https://github.com/jaredaritter/calculator/issues"
+      },
+      "comment": "",
+      "use": "Simple calculator app capable of basic arithmetic. Numbers and buttons can be clicked or typed. Can handle numbers up to 23 digits but will not show exponents.",
+      "details": "Calculator implemented with vanilla JS. Intentionally built as a more robust implementation to handle many common issues around negatives, rounding, and order of operations as well as implemented keyboard inputs",
+      "tools": [
+        {
+          "name": "JS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        }
+      ]
+    },
+    {
+      "id": "etch-a-sketch",
+      "title": "Etch-a-Sketch",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/etch-a-sketch/",
+        "source": "https://github.com/jaredaritter/etch-a-sketch",
+        "issue": "https://github.com/jaredaritter/etch-a-sketch/issues",
+        "contribute": "https://github.com/jaredaritter/etch-a-sketch/issues"
+      },
+      "comment": "",
+      "use": "Select 'New Grid' and type in the desired size. Mousing over a grid tile will change it to the currently selected color. 'Default' is a teal color with 'Silver' and 'Random' being self-explanatory. 'Lighten' and 'Darken' increase or decrease the opacity respectively by 10% on each mouseover. Note: This project is significantly more fluid and responsive with browser hardware acceleration turned on.",
+      "details": "Resizable digital Etch-a-Sketch with color options. Constructed with JS and implemented through direct DOM manipulation. Designed to practice using JS to manipulate the DOM and using functions to control flow along with basic state management.",
+      "tools": [
+        {
+          "name": "JS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        }
+      ]
+    },
+    {
+      "id": "tic-tac-toe",
+      "title": "Tic-Tac-Toe",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/tic-tac-toe/",
+        "source": "https://github.com/jaredaritter/tic-tac-toe",
+        "issue": "https://github.com/jaredaritter/tic-tac-toe/issues",
+        "contribute": "https://github.com/jaredaritter/tic-tac-toe/issues"
+      },
+      "comment": "",
+      "use": "X's start game and alternate with O's. Inputs will stop once on player has won. Refresh page to reset game.",
+      "details": "Tic-tac-toe implemented with vanilla JS. Minimal styling and in need of quality of life improvements like reset button, turn indicator, win announcement, and styling.",
+      "tools": [
+        {
+          "name": "JS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        }
+      ]
+    },
+    {
+      "id": "css-animation",
+      "title": "CSS Animation",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/cssPlay/",
+        "source": "https://github.com/jaredaritter/cssPlay",
+        "issue": "https://github.com/jaredaritter/cssPlay/issues",
+        "contribute": "https://github.com/jaredaritter/cssPlay/issues"
+      },
+      "comment": "",
+      "use": "No interaction. Purely a design and styling project.",
+      "details": "Practical application of CSS positioning and animation. Project is a moving set of eyes that look back and forth utilizing keyframes. It was built as a personal project to solidify understanding of animation and general CSS after completing a CSS section.",
+      "tools": [
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        }
+      ]
+    },
+    {
+      "id": "google-homepage-copy",
+      "title": "Google Homepage Copy",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/google-homepage/",
+        "source": "https://github.com/jaredaritter/google-homepage",
+        "issue": "https://github.com/jaredaritter/google-homepage/issues",
+        "contribute": "https://github.com/jaredaritter/google-homepage/issues"
+      },
+      "comment": "",
+      "use": "No interaction",
+      "details": "HTML and CSS project to visually recreate google homepage.",
+      "tools": [
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        }
+      ]
+    },
+    {
+      "id": "flexbox",
+      "title": "Flexbox",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/flexBox/",
+        "source": "https://github.com/jaredaritter/flexBox",
+        "issue": "https://github.com/jaredaritter/flexBox/issues",
+        "contribute": "https://github.com/jaredaritter/flexBox/issues"
+      },
+      "comment": "",
+      "use": "No interaction",
+      "details": "Personal practice utilizing flexbox. Build visualization of flex attributes for improved understanding.",
+      "tools": [
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        }
+      ]
+    },
+    {
+      "id": "fcc-projects",
+      "title": "FCC Projects",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/fcc-follow-up-projects/",
+        "source": "https://github.com/jaredaritter/fcc-follow-up-projects",
+        "issue": "https://github.com/jaredaritter/fcc-follow-up-projects/issues",
+        "contribute": "https://github.com/jaredaritter/fcc-follow-up-projects/issues"
+      },
+      "comment": "",
+      "use": "Individual live links redirect to the projects.",
+      "details": "A collection of Free Code Camp projects that were rebuilt to solidify understanding. Attempted to use the FCC material only to guide projects' directions but perform the builds from memory and use online resources/documentation when necessary. Excellent experience reworking a walk-through from memory.",
+      "tools": [
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "name": "JS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "name": "DOM Manipulation",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents"
+        },
+        {
+          "name": "Forms",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Forms"
+        }
+      ]
+    },
+    {
+      "id": "accessibility",
+      "title": "Accessibility",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/accessibilityPlay/",
+        "source": "https://github.com/jaredaritter/accessibilityPlay",
+        "issue": "https://github.com/jaredaritter/accessibilityPlay/issues",
+        "contribute": "https://github.com/jaredaritter/accessibilityPlay/issues"
+      },
+      "comment": "",
+      "use": "Page designed with accessibility in mind with semantic elements, appropriate attributes, and focus ability on the form at the bottom of the page.",
+      "details": "Personal project putting accessibility learning into practice.",
+      "tools": [
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        }
+      ]
+    },
+    {
+      "id": "basic-form-validation",
+      "title": "Basic Form Validation",
+      "url": {
+        "deploy": "https://jaredaritter.github.io/form-validation/",
+        "source": "https://github.com/jaredaritter/form-validation",
+        "issue": "https://github.com/jaredaritter/form-validation/issues",
+        "contribute": "https://github.com/jaredaritter/form-validation/issues"
+      },
+      "comment": "",
+      "use": "Basic form for inputting name, email, telephone, and message. The fields have a red background when invalid and turn green when input data is valid. Telephone has regex validation requiring area code, dashes, and no parenthesis",
+      "details": "Browser based form validation utilizing required attributes and constraints. Visually obvious passing of constraints using CSS.",
+      "tools": [
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        }
+      ]
+    }
+  ],
+  "template": {
+    "id": "",
+    "title": "",
+    "url": {
+      "deploy": "",
+      "source": "",
+      "issue": "",
+      "contribute": ""
+    },
+    "comment": "",
+    "use": "",
+    "details": "",
+    "tools": [
+      {
+        "name": "HTML",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      }
+    ]
+  }
+}
