@@ -3,20 +3,13 @@ import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 // import { getSortedPostsData } from '../lib/posts';
 
-export default function About({ allPostsData }) {
+export default function About() {
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      {/* <section className={utilStyles.headingMd}>
-        <p>I'm Jared</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
-      </section> */}
-      <section>
+      <main>
         <h2>$ whoami</h2>
         <div id="details">
           <p>
@@ -87,7 +80,7 @@ export default function About({ allPostsData }) {
             tomorrow will bring another lifetime. All I can say is bring it on.
           </p>
         </div>
-      </section>
+      </main>
     </Layout>
   );
 }
