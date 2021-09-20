@@ -22,16 +22,20 @@ export default function Nav() {
       <style jsx>
         {`
           header {
-            display: flex;
             padding: 0.5rem 1.5rem;
             text-align: center;
             background-color: rgba(17, 24, 39, 1);
-            color: white;
             justify-content: space-between;
           }
 
           a {
             color: white;
+            text-decoration: none;
+            transition: color 0.3s ease-out;
+          }
+
+          a:hover {
+            color: lightblue;
           }
 
           .logo {
@@ -41,10 +45,21 @@ export default function Nav() {
 
           .links {
             padding-top: 0.25rem;
+            display: flex;
+            flex-direction: column;
           }
 
           .link {
             margin-right: 0.5rem;
+          }
+
+          @media screen and (min-width: 550px) {
+            header {
+              display: flex;
+            }
+            .links {
+              display: block;
+            }
           }
         `}
       </style>
