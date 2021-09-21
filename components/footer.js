@@ -44,6 +44,7 @@ export default function Footer() {
             min-width: 200px;
             grid-row-start: 3;
             grid-row-end: 4;
+            margin-top: 1rem;
           }
 
           #social {
