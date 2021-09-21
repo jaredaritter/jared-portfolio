@@ -54,13 +54,19 @@ export default function Footer() {
           }
 
           #copyright {
-            text-align: right;
-            margin-right: 10px;
+            text-align: center;
           }
 
           li {
-            margin: 0 8px;
+            margin: 0 6px;
             list-style-type: none;
+          }
+
+          @media screen and (min-width: 600px) {
+            #copyright {
+              text-align: right;
+              margin-right: 10px;
+            }
           }
         `}
       </style>
