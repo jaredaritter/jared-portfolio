@@ -1,12 +1,12 @@
 .container {
-  position: relative;
   min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 /* TINKERING WITH KEEPING FOOTER AT BOTTOM OF PAGE */
-.main {
-  padding-bottom: 2.5rem;
-}
+/* .main {
+} */
 
 /* ORIGINAL STYLING FROM EXAMPLE */
 /* .container {

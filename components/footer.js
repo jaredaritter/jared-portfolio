@@ -42,10 +42,8 @@ export default function Footer() {
         {`
           footer {
             min-width: 200px;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 2.5rem;
+            grid-row-start: 3;
+            grid-row-end: 4;
           }
 
           #social {

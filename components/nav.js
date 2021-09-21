@@ -26,6 +26,8 @@ export default function Nav() {
             text-align: center;
             background-color: rgba(17, 24, 39, 1);
             justify-content: space-between;
+            grid-row-start: 1;
+            grid-row-end: 2;
           }
 
           a {
