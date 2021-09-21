@@ -1,11 +1,24 @@
 export default function Sidebar({ projects }) {
   return (
     <nav>
-      <ul>
-        {projects.map(({ id, title }) => (
-          <li key={id}>{title}</li>
-        ))}
-      </ul>
+      {projects.map(({ id, title }) => (
+        <li key={id}>{title}</li>
+      ))}
+      <style jsx>
+        {`
+          nav {
+            color: green;
+            flex-shrink: 0;
+            width: 20vw;
+            margin-right: 5px;
+            padding: 10px;
+          }
+
+          li {
+            list-style-type: none;
+          }
+        `}
+      </style>
     </nav>
   );
 }
