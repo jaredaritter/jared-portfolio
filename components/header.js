@@ -22,6 +22,7 @@ export default function Header() {
       <style jsx>
         {`
           header {
+            min-width: 280px;
             padding: 0.5rem 1.5rem;
             text-align: center;
             background-color: rgba(17, 24, 39, 1);
