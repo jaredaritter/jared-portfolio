@@ -4,4 +4,6 @@
 
 ## To-do - medium priority
 
+- Crop and shape (optional rounded border version) home page image
+
 ## To-do - low priority
