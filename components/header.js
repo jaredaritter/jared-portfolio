@@ -48,8 +48,6 @@ export default function Header() {
 
           .links {
             padding-top: 0.25rem;
-            display: flex;
-            flex-direction: column;
           }
 
           .link {
