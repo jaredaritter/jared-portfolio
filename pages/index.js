@@ -42,6 +42,18 @@ export default function Home() {
 
           .image-container {
             width: 400px;
+            animation: fadeInAnimation ease 2.5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+          }
+
+          @keyframes fadeInAnimation {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
           }
 
           @media screen and (min-width: 400px) {
