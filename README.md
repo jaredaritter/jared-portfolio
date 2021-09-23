@@ -4,7 +4,9 @@
 
 ## To-do - medium priority
 
+- Rename Projects to Portfolio and add resume?
 - Crop and shape (optional rounded border version) home page image
+- Make a robots.txt file
 
 ## To-do - low priority
 
