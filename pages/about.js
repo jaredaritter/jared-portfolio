@@ -9,9 +9,9 @@ export default function About() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <main>
+      <section>
         <h2>$ whoami</h2>
-        <div id="details">
+        <div className="details">
           <p>
             <strong>Professional</strong>
           </p>
@@ -80,7 +80,23 @@ export default function About() {
             tomorrow will bring another lifetime. All I can say is bring it on.
           </p>
         </div>
-      </main>
+      </section>
+      <style jsx>
+        {`
+          h2 {
+            text-align: center;
+          }
+
+          section {
+            max-width: 1000px;
+            margin: auto;
+          }
+
+          .details {
+            margin: 0 5px 0 10px;
+          }
+        `}
+      </style>
     </Layout>
   );
 }
