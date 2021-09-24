@@ -1,15 +1,15 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-// import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Contact() {
-  // const [success, setSuccess] = useState(false);
+  const [success, setSuccess] = useState(false);
 
-  // useEffect(() => {
-  //   if (window.location.search.includes('successs=true')) {
-  //     setSuccess(true);
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (window.location.search.includes('success=true')) {
+      setSuccess(true);
+    }
+  }, []);
 
   return (
     <Layout home>
@@ -25,11 +25,7 @@ export default function Contact() {
             communication. I would love to hear from you!
           </p>
         </div>
-        {/* {success && (
-          <p style={{ color: 'green' }}>
-            Successfully submitted form! (example code)
-          </p>
-        )} */}
+        {success && <p className="success">Successfully submitted form!</p>}
         <div className="card">
           <form
             name="contact"
@@ -46,15 +42,15 @@ export default function Contact() {
             </p>
             <p>
               <label htmlFor="name">Name</label>
-              <input type="text" id="name" name="name" />
+              <input type="text" id="name" name="name" required />
             </p>
             <p>
               <label htmlFor="email">Email</label>
-              <input type="text" id="email" name="email" />
+              <input type="text" id="email" name="email" required />
             </p>
             <p>
               <label htmlFor="message">Message</label>
-              <textarea id="message" name="message"></textarea>
+              <textarea id="message" name="message" required></textarea>
             </p>
             <p>
               <button type="submit">Send</button>
@@ -84,7 +80,7 @@ export default function Contact() {
             border-radius: 5px;
             padding: 10px;
             margin-top: 1rem;
-            max-width: 600px;
+            max-width: 400px;
           }
 
           .details {
@@ -93,6 +89,12 @@ export default function Contact() {
 
           .hidden {
             display: none;
+          }
+
+          .success {
+            color: green;
+            margin-top: 1rem;
+            text-align: center;
           }
         `}
       </style>
