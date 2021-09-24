@@ -16,6 +16,26 @@ export default function Contact() {
             communication. I would love to hear from you!
           </p>
         </div>
+        <div className="card">
+          <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
+            <p>
+              <label htmlFor="name">Name</label>
+              <input type="text" id="name" name="name" />
+            </p>
+            <p>
+              <label htmlFor="email">Email</label>
+              <input type="text" id="email" name="email" />
+            </p>
+            <p>
+              <label htmlFor="message">Message</label>
+              <textarea id="message" name="message"></textarea>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+        </div>
       </section>
       <style jsx>
         {`
@@ -35,6 +55,14 @@ export default function Contact() {
 
           .details {
             margin: 0 5px 0 10px;
+          }
+
+          .card {
+            margin: 0 5px 0 10px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 1rem;
           }
         `}
       </style>
