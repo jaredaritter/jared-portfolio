@@ -46,7 +46,7 @@ export default function Contact() {
             </p>
             <p>
               <label htmlFor="email">Email</label>
-              <input type="text" id="email" name="email" required />
+              <input type="email" id="email" name="email" required />
             </p>
             <p>
               <label htmlFor="message">Message</label>
@@ -60,6 +60,17 @@ export default function Contact() {
       </section>
       <style jsx>
         {`
+          button,
+          input,
+          select,
+          textarea {
+            font-family: inherit;
+            font-size: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+
           h2 {
             text-align: center;
           }
