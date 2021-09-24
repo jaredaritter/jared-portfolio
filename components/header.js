@@ -38,7 +38,7 @@ export default function Header() {
           }
 
           a:hover {
-            color: lightblue;
+            color: #ddd;
           }
 
           .logo {
