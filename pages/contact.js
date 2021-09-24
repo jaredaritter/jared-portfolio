@@ -1,7 +1,16 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
+import { useState, useEffect } from 'react';
 
 export default function Contact() {
+  const [success, setSuccess] = useState(false);
+
+  useEffect(() => {
+    if (window.location.search.includes('successs=true')) {
+      setSuccess(true);
+    }
+  }, []);
+
   return (
     <Layout home>
       <Head>
@@ -16,10 +25,24 @@ export default function Contact() {
             communication. I would love to hear from you!
           </p>
         </div>
+        {success && (
+          <p style={{ color: 'green' }}>
+            Successfully submitted form! (example code)
+          </p>
+        )}
+        {success ? (
+          <p style={{ color: 'green' }}>
+            Successfully submitted form! (my code)
+          </p>
+        ) : (
+          <p style={{ color: 'red' }}>Success is false</p>
+        )}
+        {/* <p style={{ color: 'green' }}>Successfully submitted form!</p> */}
         <div className="card">
           <form
             name="contact"
             method="POST"
+            action="/contact?success=true"
             netlify-honeypot="bot-field"
             data-netlify="true"
           >
@@ -64,7 +87,7 @@ export default function Contact() {
           }
 
           .card {
-            margin: 0 5px 0 10px;
+            margin: auto;
             border: 1px solid grey;
             border-radius: 5px;
             padding: 10px;
