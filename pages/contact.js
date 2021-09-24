@@ -1,15 +1,15 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 
 export default function Contact() {
-  const [success, setSuccess] = useState(false);
+  // const [success, setSuccess] = useState(false);
 
-  useEffect(() => {
-    if (window.location.search.includes('successs=true')) {
-      setSuccess(true);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (window.location.search.includes('successs=true')) {
+  //     setSuccess(true);
+  //   }
+  // }, []);
 
   return (
     <Layout home>
@@ -25,19 +25,11 @@ export default function Contact() {
             communication. I would love to hear from you!
           </p>
         </div>
-        {success && (
+        {/* {success && (
           <p style={{ color: 'green' }}>
             Successfully submitted form! (example code)
           </p>
-        )}
-        {success ? (
-          <p style={{ color: 'green' }}>
-            Successfully submitted form! (my code)
-          </p>
-        ) : (
-          <p style={{ color: 'red' }}>Success is false</p>
-        )}
-        {/* <p style={{ color: 'green' }}>Successfully submitted form!</p> */}
+        )} */}
         <div className="card">
           <form
             name="contact"
