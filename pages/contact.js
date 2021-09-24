@@ -17,8 +17,18 @@ export default function Contact() {
           </p>
         </div>
         <div className="card">
-          <form name="contact" method="POST" data-netlify="true">
+          <form
+            name="contact"
+            method="POST"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+          >
             <input type="hidden" name="form-name" value="contact" />
+            <p className="hidden">
+              <label>
+                Don’t fill this out if you’re human: <input name="bot-field" />
+              </label>
+            </p>
             <p>
               <label htmlFor="name">Name</label>
               <input type="text" id="name" name="name" />
@@ -53,16 +63,21 @@ export default function Contact() {
             margin: auto;
           }
 
-          .details {
-            margin: 0 5px 0 10px;
-          }
-
           .card {
             margin: 0 5px 0 10px;
             border: 1px solid grey;
             border-radius: 5px;
             padding: 10px;
             margin-top: 1rem;
+            max-width: 600px;
+          }
+
+          .details {
+            margin: 0 5px 0 10px;
+          }
+
+          .hidden {
+            display: none;
           }
         `}
       </style>
