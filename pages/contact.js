@@ -40,15 +40,15 @@ export default function Contact() {
                 Don’t fill this out if you’re human: <input name="bot-field" />
               </label>
             </p>
-            <p>
-              <label htmlFor="name">Name</label>
+            <p className="from">
+              <label htmlFor="name">Name</label>&nbsp;
               <input type="text" id="name" name="name" required />
             </p>
-            <p>
-              <label htmlFor="email">Email</label>
+            <p className="reply">
+              <label htmlFor="email">Email</label>&ensp;
               <input type="email" id="email" name="email" required />
             </p>
-            <p>
+            <p className="message">
               <label htmlFor="message">Message</label>
               <textarea id="message" name="message" required></textarea>
             </p>
@@ -62,13 +62,67 @@ export default function Contact() {
         {`
           button,
           input,
-          select,
           textarea {
             font-family: inherit;
             font-size: 100%;
-            margin: 0;
-            padding: 0;
+          }
+
+          form {
+            margin: 0 auto;
+            padding: 1em;
             box-sizing: border-box;
+          }
+
+          .from,
+          .reply {
+            display: flex;
+          }
+
+          input,
+          textarea {
+            border: 2px solid #333;
+            border-radius: 5px;
+            padding: 0 10px;
+            width: 80%;
+            background: none;
+          }
+
+          input:focus,
+          textarea:focus {
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+          }
+
+          textarea {
+            display: block;
+            padding: 10px;
+            margin: 8px 0 0 0;
+            width: 100%;
+            height: 90%;
+            border-right: 1px solid;
+            overflow: auto;
+          }
+
+          button {
+            padding: 5px;
+            font-weight: bold;
+            font-size: 0.6em;
+            border: 2px solid #333;
+            border-radius: 5px;
+            background: none;
+            cursor: pointer;
+            margin: 10px 3px 0;
+          }
+
+          button:after {
+            content: ' >>>';
+          }
+
+          button:hover,
+          button:focus {
+            outline: none;
+            background: #000;
+            color: #fff;
           }
 
           h2 {
@@ -77,7 +131,7 @@ export default function Contact() {
 
           p {
             max-width: 600px;
-            margin: auto;
+            margin: 3px auto;
           }
 
           section {
@@ -87,7 +141,7 @@ export default function Contact() {
 
           .card {
             margin: auto;
-            border: 1px solid grey;
+            border: 2px solid #333;
             border-radius: 5px;
             padding: 10px;
             margin-top: 1rem;
