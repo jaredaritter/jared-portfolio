@@ -11,6 +11,7 @@ export default function Home() {
       <section>
         <div className="image-container">
           <Image
+            priority
             src="/images/jared.jpg" // Route to image file
             height={600} // Desired size with correct aspect ratio
             width={400} // Desired size with correct aspect ratio
