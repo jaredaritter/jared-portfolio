@@ -20,9 +20,8 @@ export default function Contact() {
         <h2>How to reach me?</h2>
         <div className="details">
           <p>
-            My social media and github are the best ways to get in touch. The
-            links are below. In the future I will post an email for direct
-            communication. I would love to hear from you!
+            This contact form is the easiest way to get in touch. My social
+            media links can be found below.
           </p>
         </div>
         {success && <p className="success">Successfully submitted form!</p>}
