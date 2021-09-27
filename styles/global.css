@@ -8,6 +8,7 @@ body {
   font-size: 18px;
 }
 
+/* PAGE FADE IN */
 body {
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
