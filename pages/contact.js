@@ -18,15 +18,19 @@ export default function Contact() {
       </Head>
       <section>
         <h2>How to reach me?</h2>
-        {/* <div className="details">
-          <p>I would love to hear from you!</p>
-        </div> */}
+        <div className="details">
+          <p>
+            My social media and github are the best ways to get in touch. The
+            links are below. In the future I will post an email for direct
+            communication. I would love to hear from you!
+          </p>
+        </div>
         {success && <p className="success">Successfully submitted form!</p>}
         <div className="card">
           <form
             name="contact"
             method="POST"
-            action="/success"
+            action="/contact?success=true"
             netlify-honeypot="bot-field"
             data-netlify="true"
           >
@@ -146,7 +150,6 @@ export default function Contact() {
 
           .details {
             margin: 0 5px 0 10px;
-            text-align: center;
           }
 
           .hidden {
