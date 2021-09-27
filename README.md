@@ -11,3 +11,8 @@
 ## To-do - low priority
 
 - Make decision about extra section elements and whether to remove them
+
+## Other notes
+
+- Netlify generic form successful submission page.
+  - https://distracted-shaw-01b0df.netlify.app/contact?success=true
