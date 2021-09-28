@@ -17,7 +17,7 @@ export default function Projects({ allProjectData }) {
         <Sidebar projects={projects} />
         <div className="main">
           <h2>Projects</h2>
-          <div id="intro">
+          <div>
             <p>Under Contruction</p>
           </div>
           <ProjectList projects={projects} />
@@ -26,6 +26,8 @@ export default function Projects({ allProjectData }) {
       <style jsx>{`
         .main {
           width: 80vw;
+          display: flex;
+          flex-direction: column;
         }
       `}</style>
     </Layout>
