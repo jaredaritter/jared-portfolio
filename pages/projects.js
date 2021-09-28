@@ -16,8 +16,8 @@ export default function Projects({ allProjectData }) {
       <div className={styles.projectsContainer}>
         <Sidebar projects={projects} />
         <div className="main">
-          <h2>Projects</h2>
-          <div>
+          <h2 className={styles.center}>Projects</h2>
+          <div className={styles.center}>
             <p>Under Contruction</p>
           </div>
           <ProjectList projects={projects} />

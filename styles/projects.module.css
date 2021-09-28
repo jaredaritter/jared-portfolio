@@ -1,4 +1,7 @@
 .projectsContainer {
-  color: red;
   display: flex;
+}
+
+.center {
+  text-align: center;
 }

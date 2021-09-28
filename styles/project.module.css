@@ -1,0 +1,29 @@
+.section {
+  width: 70vw;
+  margin: 10px auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 4px 3px 5px grey;
+}
+
+.header {
+  margin: 1rem 0.75rem;
+}
+
+.paragraph {
+  margin: 0.75rem 0.75rem;
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+.anchor:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .anchor {
+    display: block;
+  }
+}
