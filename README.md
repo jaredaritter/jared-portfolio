@@ -25,3 +25,4 @@
 - CSS Modules appear to play more nicely with imported Nextjs components than styled-jsx
   - I am able to apply classes directly to imported components from the module without having to do wrapper divs.
   - Point for modules.
+- Template literals allow for easy implementation of multiple imported classes under ClassName.
