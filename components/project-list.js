@@ -25,7 +25,7 @@ export default function ProjectList({ projects }) {
             {details}
           </p>
           <p>
-            <strong>Build Tools:</strong>
+            <strong>Build Tools: </strong>
             {tools.map(({ url, name }) => (
               <a href={url} key={name}>
                 {name}
@@ -42,7 +42,12 @@ export default function ProjectList({ projects }) {
         {`
           .listContainer {
             color: blue;
-            flex: 1 0 auto;
+          }
+
+          @media screen and (max-width: 550px) {
+            a {
+              display: block;
+            }
           }
         `}
       </style>
