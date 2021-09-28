@@ -15,14 +15,19 @@ export default function Projects({ allProjectData }) {
       </Head>
       <div className={styles.projectsContainer}>
         <Sidebar projects={projects} />
-        <main>
+        <div className="main">
           <h2>Projects</h2>
           <div id="intro">
             <p>Under Contruction</p>
           </div>
           <ProjectList projects={projects} />
-        </main>
+        </div>
       </div>
+      <style jsx>{`
+        .main {
+          width: 80vw;
+        }
+      `}</style>
     </Layout>
   );
 }
