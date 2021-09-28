@@ -12,6 +12,7 @@
 
 - Make decision about extra section elements and whether to remove them
 - Change default Netlify success form to custom.
+- Revisit different fonts
 
 ### Success page notes
 
