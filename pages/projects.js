@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
+// import utilStyles from '../styles/utils.module.css';
+import styles from '../styles/projects.module.css';
 import { getProjectData } from '../lib/projects';
 import Sidebar from '../components/sidebar';
 import ProjectList from '../components/project-list';
@@ -12,7 +13,7 @@ export default function Projects({ allProjectData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className="projectsContainer">
+      <div className={styles.projectsContainer}>
         <Sidebar projects={projects} />
         <main>
           <h2>Projects</h2>
@@ -22,14 +23,6 @@ export default function Projects({ allProjectData }) {
           <ProjectList projects={projects} />
         </main>
       </div>
-      <style jsx>
-        {`
-          .projectsContainer {
-            color: gray;
-            display: flex;
-          }
-        `}
-      </style>
     </Layout>
   );
 }
