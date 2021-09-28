@@ -10,7 +10,7 @@ export default function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/jaredAvatar.png" />
         {/* <meta
           name="description"
           content="Learn how to build a personal website using Next.js"
@@ -37,7 +37,10 @@ export default function Layout({ children }) {
           property="og:description"
           content="Jared A Ritter's portfolio page. A web developer, Jared is always learning, growing, and contributing. This page contains a list of his projects, a bit of his personality, and ways to contact him."
         />
-        <meta property="og:image" content="../public/images/link-logo.png" />
+        <meta
+          property="og:image"
+          content="https://www.jaredaritter.com/images/link-logo.png"
+        />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -48,7 +51,10 @@ export default function Layout({ children }) {
           name="twitter:description"
           content="Jared A Ritter's portfolio page. A web developer, Jared is always learning, growing, and contributing. This page contains a list of his projects, a bit of his personality, and ways to contact him."
         />
-        <meta name="twitter:image" content="../public/images/link-logo.png" />
+        <meta
+          name="twitter:image"
+          content="https://www.jaredaritter.com/images/link-logo.png"
+        />
       </Head>
       <Header />
       <main className={styles.main}>{children}</main>
