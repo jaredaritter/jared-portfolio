@@ -50,3 +50,19 @@
 .lightText {
   color: #666;
 }
+
+/* FOR PICTURE FADE IN. HAVING TROUBLE IMPLEMENTING MULTIPLE UTIL STYLES ON SINGLE ELEMENT */
+.fadeIn {
+  animation: fadeInAnimation ease 2.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -17,7 +17,7 @@ export default function Home() {
             height={600} // Desired size with correct aspect ratio
             width={400} // Desired size with correct aspect ratio
             alt="Jared headshot"
-            className={utilStyles.borderCircle}
+            className={`${utilStyles.borderCircle} ${utilStyles.fadeIn}`}
           />
         </div>
         <div id="highlights">
@@ -29,22 +29,6 @@ export default function Home() {
           #highlights {
             text-align: center;
             margin: 50px 0;
-          }
-
-          .image-container {
-            width: 400px;
-            animation: fadeInAnimation ease 2.5s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-          }
-
-          @keyframes fadeInAnimation {
-            0% {
-              opacity: 0;
-            }
-            100% {
-              opacity: 1;
-            }
           }
 
           @media screen and (min-width: 400px) {
