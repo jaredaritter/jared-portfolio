@@ -2,7 +2,6 @@ import Head from 'next/head';
 import styles from '../styles/layout.module.css';
 import Header from './header';
 import Footer from './footer';
-import logo from '../public/images/link-logo.png';
 
 export const siteTitle = 'Jared A Ritter';
 

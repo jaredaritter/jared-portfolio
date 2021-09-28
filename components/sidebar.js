@@ -8,7 +8,6 @@ export default function Sidebar({ projects }) {
         {`
           nav {
             color: green;
-            flex-shrink: 0;
             width: 20vw;
             margin-right: 5px;
             padding: 10px;
