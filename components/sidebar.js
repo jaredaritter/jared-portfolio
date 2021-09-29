@@ -1,9 +1,21 @@
+import { useState } from 'react';
+
 export default function Sidebar({ projects }) {
+  const [active, setActive] = useState(false);
+
+  const handleClick = () => {
+    setActive(!active);
+  };
+
+  console.log(active);
   return (
     <nav>
-      {projects.map(({ id, title }) => (
-        <li key={id}>{title}</li>
-      ))}
+      <button onClick={handleClick}>Click</button>
+      <div className={`${active ? '' : 'hidden'}`}>
+        {projects.map(({ id, title }) => (
+          <li key={id}>{title}</li>
+        ))}
+      </div>
       <style jsx>
         {`
           nav {
@@ -15,6 +27,10 @@ export default function Sidebar({ projects }) {
 
           li {
             list-style-type: none;
+          }
+
+          .hidden {
+            display: none;
           }
         `}
       </style>

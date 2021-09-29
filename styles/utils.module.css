@@ -51,6 +51,10 @@
   color: #666;
 }
 
+.centerText {
+  text-align: center;
+}
+
 /* FOR PICTURE FADE IN. HAVING TROUBLE IMPLEMENTING MULTIPLE UTIL STYLES ON SINGLE ELEMENT */
 .fadeIn {
   animation: fadeInAnimation ease 2.5s;

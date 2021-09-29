@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-// import utilStyles from '../styles/utils.module.css';
+import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/projects.module.css';
 import { getProjectData } from '../lib/projects';
 import Sidebar from '../components/sidebar';
@@ -15,21 +15,15 @@ export default function Projects({ allProjectData }) {
       </Head>
       <div className={styles.projectsContainer}>
         <Sidebar projects={projects} />
-        <div className="main">
-          <h2 className={styles.center}>Projects</h2>
-          <div className={styles.center}>
+        <div className={styles.main}>
+          <h2 className={utilStyles.centerText}>Projects</h2>
+          <div className={utilStyles.centerText}>
             <p>Under Contruction</p>
           </div>
           <ProjectList projects={projects} />
         </div>
       </div>
-      <style jsx>{`
-        .main {
-          width: 80vw;
-          display: flex;
-          flex-direction: column;
-        }
-      `}</style>
+      <style jsx>{``}</style>
     </Layout>
   );
 }
