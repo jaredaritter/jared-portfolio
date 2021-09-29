@@ -31,9 +31,17 @@ export default function Home() {
             margin: 50px 0;
           }
 
+          .image-container {
+            min-width: 280px;
+            max-width: 400px;
+            margin: 1vh auto;
+            padding: 0 1vw;
+          }
+
           @media screen and (min-width: 400px) {
             .image-container {
               margin: 1vh auto;
+              padding: 0;
             }
           }
 
