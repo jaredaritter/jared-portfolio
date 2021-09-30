@@ -23,6 +23,9 @@ export default function Sidebar({ projects }) {
             width: 20vw;
             margin-right: 5px;
             padding: 10px;
+            position: sticky;
+            top: 0;
+            align-self: flex-start;
           }
 
           li {
