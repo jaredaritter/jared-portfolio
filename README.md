@@ -2,6 +2,8 @@
 
 ## To-do - high priority
 
+- Make Header sticky?
+
 ## To-do - medium priority
 
 - Rename Projects to Portfolio and add resume?
