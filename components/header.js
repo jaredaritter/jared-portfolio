@@ -10,7 +10,7 @@ export default function Header() {
       </div>
       <div className="links">
         <Link href="/projects">
-          <a className="link">Projects</a>
+          <a className="link grow">Projects</a>
         </Link>
         <Link href="/about">
           <a className="link">About</a>
@@ -41,6 +41,14 @@ export default function Header() {
             color: #ddd;
           }
 
+          .grow {
+            transition: all 0.2s ease-in-out;
+          }
+
+          .grow:hover {
+            transform: scale(1.1);
+          }
+
           .logo {
             font-size: 1.875rem;
             line-height: 2.25rem;
@@ -48,18 +56,17 @@ export default function Header() {
 
           .links {
             padding-top: 0.25rem;
+            display: flex;
           }
 
           .link {
+            display: block;
             margin-right: 0.5rem;
           }
 
           @media screen and (min-width: 550px) {
             header {
               display: flex;
-            }
-            .links {
-              display: block;
             }
           }
         `}
