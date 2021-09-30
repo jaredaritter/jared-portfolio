@@ -1,17 +1,9 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 
 export default function Sidebar({ projects }) {
-  const [active, setActive] = useState(false);
-
-  const handleClick = () => {
-    setActive(!active);
-  };
-
-  console.log(active);
   return (
     <nav>
-      <button onClick={handleClick}>Click</button>
-      <div className={`${active ? '' : 'hidden'}`}>
+      <div>
         {projects.map(({ id, title }) => (
           <li key={id}>{title}</li>
         ))}
@@ -35,11 +27,32 @@ export default function Sidebar({ projects }) {
           .hidden {
             display: none;
           }
+
+          @media screen and (max-width: 550px) {
+            nav {
+              display: none;
+            }
+          }
         `}
       </style>
     </nav>
   );
 }
+
+// STATE AND CLICK HANDLER FOR FUTURE DROPDOWN
+// const [active, setActive] = useState(false);
+
+// const handleClick = () => {
+//   setActive(!active);
+// };
+
+// BUTTON AND DIV LOGIC FOR FUTURE DROPDOWN
+// <button onClick={handleClick}>Click</button>
+// <div className={`${active ? '' : 'hidden'}`}>
+//   {projects.map(({ id, title }) => (
+//     <li key={id}>{title}</li>
+//   ))}
+// </div>
 
 // LEGACY CODE
 // <li>

@@ -9,9 +9,10 @@
 }
 
 @media screen and (max-width: 550px) {
-  .projectsContainer {
+  /* PRIOR MODIFICATION FOR DROPDOWN */
+  /* .projectsContainer {
     flex-direction: column;
-  }
+  } */
 
   .main {
     width: 100vw;
