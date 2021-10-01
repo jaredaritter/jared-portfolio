@@ -23,7 +23,6 @@ export default function Projects({ allProjectData }) {
           <ProjectList projects={projects} />
         </div>
       </div>
-      <style jsx>{``}</style>
     </Layout>
   );
 }

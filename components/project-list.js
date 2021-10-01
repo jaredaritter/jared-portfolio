@@ -3,16 +3,10 @@ import Project from './project';
 
 export default function ProjectList({ projects }) {
   return (
-    <div className="listContainer">
+    <div>
       {projects.map((project) => (
         <Project project={project} id={project.id} key={project.id} />
       ))}
-      <style jsx>
-        {`
-          .listContainer {
-          }
-        `}
-      </style>
     </div>
   );
 }
