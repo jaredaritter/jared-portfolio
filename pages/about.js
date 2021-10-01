@@ -88,7 +88,7 @@ export default function About() {
           }
 
           section {
-            max-width: 1000px;
+            max-width: 800px;
             margin: auto;
           }
 
