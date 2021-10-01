@@ -12,7 +12,7 @@ export default function Sidebar({ projects }) {
         {`
           nav {
             color: green;
-            width: 20vw;
+            width: 20%;
             margin-right: 5px;
             padding: 10px;
             position: sticky;
@@ -28,7 +28,7 @@ export default function Sidebar({ projects }) {
             display: none;
           }
 
-          @media screen and (max-width: 550px) {
+          @media screen and (max-width: 600px) {
             nav {
               display: none;
             }
