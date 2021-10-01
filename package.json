@@ -15,6 +15,7 @@
   "homepage": "https://github.com/jaredaritter/jared-portfolio#readme",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "scripts/generate-robots-txt",
     "build": "next build",
     "start": "next start"
   },
