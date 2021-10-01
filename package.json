@@ -1,7 +1,18 @@
 {
-  "name": "learn-starter",
-  "version": "0.1.0",
+  "name": "jared-portfolio-nextjs",
+  "version": "1.0.0",
   "private": true,
+  "description": "Portfolio page",
+  "author": "Jared A Ritter",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredaritter/jared-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaredaritter/jared-portfolio/issues"
+  },
+  "homepage": "https://github.com/jaredaritter/jared-portfolio#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
