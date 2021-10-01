@@ -55,6 +55,22 @@
   text-align: center;
 }
 
+.growMd {
+  transition: all 0.1s ease-in-out;
+}
+
+.growMd:hover {
+  transform: scale(1.1);
+}
+
+.growSm {
+  transition: all 0.1s ease-in-out;
+}
+
+.growSm:hover {
+  transform: scale(1.05);
+}
+
 /* FOR PICTURE FADE IN. HAVING TROUBLE IMPLEMENTING MULTIPLE UTIL STYLES ON SINGLE ELEMENT */
 .fadeIn {
   animation: fadeInAnimation ease 2.5s;
