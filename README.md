@@ -2,16 +2,17 @@
 
 ## To-do - high priority
 
+- Update Meta information in Layouts to be unique to each page.
 - Make Header sticky?
 
 ## To-do - medium priority
 
 - Rename Projects to Portfolio and add resume?
-- Crop and shape (optional rounded border version) home page image
 - Make a robots.txt file
 
 ## To-do - low priority
 
+- Crop and shape (optional rounded border version) home page image
 - Make decision about extra section elements and whether to remove them
 - Change default Netlify success form to custom.
 - Revisit different fonts
