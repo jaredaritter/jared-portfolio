@@ -1,0 +1,12 @@
+.h2 {
+  text-align: center;
+}
+
+.section {
+  max-width: 800px;
+  margin: auto;
+}
+
+.details {
+  margin: 0 5px 0 10px;
+}

@@ -1,0 +1,101 @@
+.button,
+.input,
+.textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+.form {
+  margin: 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.from,
+.reply {
+  display: flex;
+}
+
+.input,
+.textarea {
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 0 10px;
+  width: 80%;
+  background: none;
+}
+
+.input:focus,
+.textarea:focus {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.textarea {
+  display: block;
+  padding: 10px;
+  margin: 8px 0 0 0;
+  width: 100%;
+  height: 90%;
+  border-right: 1px solid;
+  overflow: auto;
+}
+
+.button {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 0.6em;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+  margin: 10px 3px 0;
+}
+
+.button:after {
+  content: ' >>>';
+}
+
+.button:hover,
+.button:focus {
+  outline: none;
+  background: #000;
+  color: #fff;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.p {
+  max-width: 600px;
+  margin: 3px auto;
+}
+
+.section {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  margin: auto;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 1rem;
+  max-width: 400px;
+}
+
+.details {
+  margin: 0 5px 0 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.success {
+  color: green;
+  margin-top: 1rem;
+  text-align: center;
+}

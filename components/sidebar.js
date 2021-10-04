@@ -1,40 +1,16 @@
 // import { useState } from 'react';
+import styles from '../styles/sidebar.module.css';
 
 export default function Sidebar({ projects }) {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <div>
         {projects.map(({ id, title }) => (
-          <li key={id}>{title}</li>
+          <li className={styles.li} key={id}>
+            {title}
+          </li>
         ))}
       </div>
-      <style jsx>
-        {`
-          nav {
-            color: green;
-            width: 20%;
-            margin-right: 5px;
-            padding: 10px;
-            position: sticky;
-            top: 0;
-            align-self: flex-start;
-          }
-
-          li {
-            list-style-type: none;
-          }
-
-          .hidden {
-            display: none;
-          }
-
-          @media screen and (max-width: 600px) {
-            nav {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </nav>
   );
 }

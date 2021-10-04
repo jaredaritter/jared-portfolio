@@ -1,0 +1,19 @@
+.nav {
+  color: green;
+  width: 20%;
+  margin-right: 5px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+.li {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+}

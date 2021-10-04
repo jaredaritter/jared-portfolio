@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
-// import { getSortedPostsData } from '../lib/posts';
+import styles from '../styles/about.module.css';
 
 export default function About() {
   return (
@@ -9,9 +8,9 @@ export default function About() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section>
-        <h2>$ whoami</h2>
-        <div className="details">
+      <section className={styles.section}>
+        <h2 className={styles.h2}>$ whoami</h2>
+        <div className={styles.details}>
           <p>
             <strong>Professional</strong>
           </p>
@@ -81,22 +80,6 @@ export default function About() {
           </p>
         </div>
       </section>
-      <style jsx>
-        {`
-          h2 {
-            text-align: center;
-          }
-
-          section {
-            max-width: 800px;
-            margin: auto;
-          }
-
-          .details {
-            margin: 0 5px 0 10px;
-          }
-        `}
-      </style>
     </Layout>
   );
 }
