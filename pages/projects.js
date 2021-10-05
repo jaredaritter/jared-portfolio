@@ -18,7 +18,7 @@ export default function Projects({ allProjectData }) {
         <div className={styles.main}>
           <h2 className={utilStyles.centerText}>Projects</h2>
           <div className={utilStyles.centerText}>
-            <p>Under Contruction</p>
+            <p>Evolving</p>
           </div>
           <ProjectList projects={projects} />
         </div>
