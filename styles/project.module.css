@@ -10,15 +10,15 @@
   margin: 1rem 0.75rem;
 }
 
-.paragraph {
+.p {
   margin: 0.75rem 0.75rem;
 }
 
-.anchor {
+.a {
   text-decoration: none;
 }
 
-.anchor:hover {
+.a:hover {
   text-decoration: underline;
 }
 
@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .anchor {
+  .a {
     display: block;
   }
 }

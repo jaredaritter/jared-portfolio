@@ -1,6 +1,6 @@
-// import utilStyles from '../styles/utils.module.css';
 import Project from './project';
 
+// AGGREGATES PROJECTS
 export default function ProjectList({ projects }) {
   return (
     <div>
@@ -9,9 +9,4 @@ export default function ProjectList({ projects }) {
       ))}
     </div>
   );
-}
-
-// ARCHIVED CODE EXAMPLE
-{
-  /* <div className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}> */
 }

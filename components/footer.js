@@ -1,10 +1,11 @@
 import Image from 'next/image';
+import styles from '../styles/footer.module.css';
 
 export default function Footer() {
   return (
-    <footer>
-      <div id="social">
-        <li>
+    <footer className={styles.footer}>
+      <div id={styles.social}>
+        <li className={styles.li}>
           <a href="https://github.com/jaredaritter">
             <Image
               src="/images/GitHub-Mark-32px.png"
@@ -14,7 +15,7 @@ export default function Footer() {
             />
           </a>
         </li>
-        <li>
+        <li className={styles.li}>
           <a href="https://www.linkedin.com/in/jaredaritter">
             <Image
               src="/images/LI-In-Bug-Tiny.png"
@@ -24,7 +25,7 @@ export default function Footer() {
             />
           </a>
         </li>
-        <li>
+        <li className={styles.li}>
           <a href="https://twitter.com/jaredaritter">
             <Image
               src="/images/Twitter-Logo-black.svg"
@@ -36,40 +37,8 @@ export default function Footer() {
         </li>
       </div>
       <div>
-        <p id="copyright">&copy; 2020 Jared A Ritter</p>
+        <p id={styles.copyright}>&copy; 2020 Jared A Ritter</p>
       </div>
-      <style jsx>
-        {`
-          footer {
-            min-width: 200px;
-            grid-row-start: 3;
-            grid-row-end: 4;
-            margin-top: 1rem;
-          }
-
-          #social {
-            display: flex;
-            width: 140px;
-            margin: auto;
-          }
-
-          #copyright {
-            text-align: center;
-          }
-
-          li {
-            margin: 0 6px;
-            list-style-type: none;
-          }
-
-          @media screen and (min-width: 600px) {
-            #copyright {
-              text-align: right;
-              margin-right: 10px;
-            }
-          }
-        `}
-      </style>
     </footer>
   );
 }

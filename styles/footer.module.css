@@ -1,0 +1,28 @@
+.footer {
+  min-width: 200px;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin-top: 1rem;
+}
+
+#social {
+  display: flex;
+  width: 140px;
+  margin: auto;
+}
+
+#copyright {
+  text-align: center;
+}
+
+.li {
+  margin: 0 6px;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 600px) {
+  #copyright {
+    text-align: right;
+    margin-right: 10px;
+  }
+}
