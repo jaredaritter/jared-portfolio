@@ -9,8 +9,9 @@ export default function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Head>
+        {/* ICON */}
         <link rel="icon" href="/images/jaredAvatar.png" />
-        <meta name="twitter:card" content="summary_large_image" />
+
         {/* <!-- HTML Meta Tags --> */}
         <meta
           name="description"
@@ -34,7 +35,7 @@ export default function Layout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="jaredaritter.com" />
         <meta property="twitter:url" content="https://www.jaredaritter.com/" />
-        <meta name="twitter:title" content="Jared A Ritter" />
+        <meta name="twitter:title" content={siteTitle} />
         <meta
           name="twitter:description"
           content="Jared A Ritter's portfolio page. A web developer, Jared is always learning, growing, and contributing. This page contains a list of his projects, a bit of his personality, and ways to contact him."
