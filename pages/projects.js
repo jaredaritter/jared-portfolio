@@ -11,6 +11,7 @@ export default function Projects({ allProjectData }) {
   return (
     <Layout home>
       <Head>
+        <link rel="canonical" href="https://www.jaredaritter.com/projects" />
         <title>{siteTitle}</title>
       </Head>
       <div className={styles.projectsContainer}>

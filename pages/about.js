@@ -6,6 +6,7 @@ export default function About() {
   return (
     <Layout home>
       <Head>
+        <link rel="canonical" href="https://www.jaredaritter.com/about" />
         <title>{siteTitle}</title>
       </Head>
       <section className={styles.section}>

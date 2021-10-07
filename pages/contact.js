@@ -15,6 +15,7 @@ export default function Contact() {
   return (
     <Layout home>
       <Head>
+        <link rel="canonical" href="https://www.jaredaritter.com/contact" />
         <title>{siteTitle}</title>
       </Head>
       <section className={styles.section}>

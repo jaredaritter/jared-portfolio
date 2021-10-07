@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
+        <link rel="canonical" href="https://www.jaredaritter.com" />
         <title>{siteTitle}</title>
       </Head>
       <section>
