@@ -8,6 +8,8 @@
   background-color: rgba(17, 24, 39, 1);
   grid-row-start: 1;
   grid-row-end: 2;
+  position: sticky;
+  top: 0;
 }
 
 .container {
