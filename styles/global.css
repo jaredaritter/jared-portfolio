@@ -9,6 +9,11 @@ body {
   scroll-behavior: smooth;
 }
 
+/* SECRET SAUCE FOR PREVENTING HEADER OVERLAP OF INTERAL LINK TARGET */
+html {
+  scroll-padding-top: 5%;
+}
+
 /* PAGE FADE IN */
 body {
   animation: fadeInAnimation ease 1s;
