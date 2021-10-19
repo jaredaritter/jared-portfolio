@@ -5,14 +5,33 @@
   margin-top: 1rem;
 }
 
-#social {
-  display: flex;
-  width: 140px;
+.container {
+  max-width: 1000px;
   margin: auto;
 }
 
-#copyright {
+.upper {
+  display: flex;
+  width: 130px;
+  margin: 0 auto 5px;
+}
+
+.lower {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.p {
   text-align: center;
+  margin: 5px;
+}
+
+.a {
+  color: black;
+}
+
+.a:visited {
+  color: black;
 }
 
 .li {
@@ -21,8 +40,9 @@
 }
 
 @media screen and (min-width: 600px) {
-  #copyright {
-    text-align: right;
-    margin-right: 10px;
+  .lower {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10px;
   }
 }
