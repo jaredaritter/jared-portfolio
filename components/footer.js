@@ -8,7 +8,7 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.upper}>
           <li className={styles.li}>
-            <a href="https://github.com/jaredaritter">
+            <a href="https://github.com/jaredaritter" target="_blank">
               <Image
                 src="/images/GitHub-Mark-32px.png"
                 alt="Small Github Icon"
@@ -18,7 +18,7 @@ export default function Footer() {
             </a>
           </li>
           <li className={styles.li}>
-            <a href="https://www.linkedin.com/in/jaredaritter">
+            <a href="https://www.linkedin.com/in/jaredaritter" target="_blank">
               <Image
                 src="/images/LI-In-Bug-Tiny.png"
                 alt="Small LinkedIn Icon"
@@ -28,7 +28,7 @@ export default function Footer() {
             </a>
           </li>
           <li className={styles.li}>
-            <a href="https://twitter.com/jaredaritter">
+            <a href="https://twitter.com/jaredaritter" target="_blank">
               <Image
                 src="/images/Twitter-Logo-black.svg"
                 alt="Small Twitter Icon"
