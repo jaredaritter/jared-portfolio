@@ -19,7 +19,7 @@ export default function Projects({ allProjectData }) {
         <div className={styles.main}>
           <h2 className={utilStyles.centerText}>Projects and Work</h2>
           <div className={`${utilStyles.centerText} ${styles.yellowBox}`}>
-            <p>This page is current evolving</p>
+            <p>This page is currently evolving</p>
           </div>
           <ProjectList projects={projects} />
         </div>
