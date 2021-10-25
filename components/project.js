@@ -26,10 +26,13 @@ export default function Project({ project }) {
       </p>
       <p className={styles.p}>
         <strong>Build Tools: </strong>
-        {tools.map(({ url, name }) => (
-          <a className={styles.a} href={url} key={name}>
-            {name}{' '}
-          </a>
+        {tools.map(({ url, name }, index) => (
+          <span key={name}>
+            {index !== 0 ? <span>, </span> : null}
+            <a className={styles.a} href={url}>
+              {name}
+            </a>
+          </span>
         ))}
       </p>
       <p className={styles.p}>
