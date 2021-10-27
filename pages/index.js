@@ -24,7 +24,6 @@ export default function Home() {
         </div>
         <div className={styles.highlights}>
           <h2>Web Developer.</h2>
-          <h2>Educator.</h2>
         </div>
       </section>
     </Layout>
