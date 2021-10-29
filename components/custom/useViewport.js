@@ -5,9 +5,6 @@ const useViewport = () => {
   const [width, setWidth] = useState(
     typeof window !== 'undefined' ? window.innerWidth : 800
   );
-  console.log(
-    'I am aware of error being thrown in mobile console. It is an issue of server vs client side rendering and does not affect page function.'
-  );
 
   useEffect(() => {
     const handleWindowResize = () => setWidth(window.innerWidth);
