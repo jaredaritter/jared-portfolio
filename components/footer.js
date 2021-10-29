@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <div className={styles.upper}>
+        <ul className={styles.upper}>
           <li className={styles.li}>
             <a href="https://github.com/jaredaritter" target="_blank">
               <Image
@@ -37,7 +37,7 @@ export default function Footer() {
               />
             </a>
           </li>
-        </div>
+        </ul>
         <div className={styles.lower}>
           <Link href="https://github.com/jaredaritter/jared-portfolio/issues">
             <a className={`${styles.p} ${styles.a}`} target="_blank">
