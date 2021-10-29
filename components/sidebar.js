@@ -4,7 +4,7 @@ import styles from '../styles/sidebar.module.css';
 export default function Sidebar({ projects }) {
   return (
     <nav className={styles.nav}>
-      <div>
+      <ul className={styles.ul}>
         {projects.map(({ id, title }) => (
           <li className={styles.li} key={id}>
             <a className={styles.a} href={`#${id}`}>
@@ -12,7 +12,7 @@ export default function Sidebar({ projects }) {
             </a>
           </li>
         ))}
-      </div>
+      </ul>
     </nav>
   );
 }
