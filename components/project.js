@@ -36,11 +36,11 @@ export default function Project({ project }) {
         ))}
       </p>
       <p className={styles.p}>
-        <a className={styles.a} href={url.contribute}>
+        <a className={`${styles.a} ${styles.exception}`} href={url.contribute}>
           Contribute
         </a>
         &nbsp;/&nbsp;
-        <a className={styles.a} href={url.issue}>
+        <a className={`${styles.a} ${styles.exception}`} href={url.issue}>
           Issue
         </a>
       </p>

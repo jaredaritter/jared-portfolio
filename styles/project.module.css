@@ -37,4 +37,9 @@
   .a {
     display: block;
   }
+
+  /* NEEDS TO COME AFTER .A TO ALLOW DESIRED DISPLAY FUNCTION */
+  .exception {
+    display: inline;
+  }
 }
