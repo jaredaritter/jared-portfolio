@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     <div className={styles.container}>
       <Head>
         {/* ICON */}
-        <link rel="icon" href="/images/jaredAvatar.png" />
+        <link rel="icon" href="/images/jaredAvatar-favicon-64x64.png" />
 
         {/* <!-- HTML Meta Tags --> */}
         <meta
