@@ -8,7 +8,11 @@ export default function Footer() {
       <div className={styles.container}>
         <ul className={styles.upper}>
           <li className={styles.li}>
-            <a href="https://github.com/jaredaritter" target="_blank">
+            <a
+              href="https://github.com/jaredaritter"
+              target="_blank"
+              rel="noopener"
+            >
               <Image
                 src="/images/GitHub-Mark-32px.png"
                 alt="Small Github Icon"
@@ -18,7 +22,11 @@ export default function Footer() {
             </a>
           </li>
           <li className={styles.li}>
-            <a href="https://www.linkedin.com/in/jaredaritter" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/jaredaritter"
+              target="_blank"
+              rel="noopener"
+            >
               <Image
                 src="/images/LI-In-Bug-Tiny.png"
                 alt="Small LinkedIn Icon"
@@ -28,7 +36,11 @@ export default function Footer() {
             </a>
           </li>
           <li className={styles.li}>
-            <a href="https://twitter.com/jaredaritter" target="_blank">
+            <a
+              href="https://twitter.com/jaredaritter"
+              target="_blank"
+              rel="noopener"
+            >
               <Image
                 src="/images/Twitter-Logo-black.svg"
                 alt="Small Twitter Icon"
@@ -40,7 +52,11 @@ export default function Footer() {
         </ul>
         <div className={styles.lower}>
           <Link href="https://github.com/jaredaritter/jared-portfolio/issues">
-            <a className={`${styles.p} ${styles.a}`} target="_blank">
+            <a
+              className={`${styles.p} ${styles.a}`}
+              target="_blank"
+              rel="noopener"
+            >
               Issues
             </a>
           </Link>
